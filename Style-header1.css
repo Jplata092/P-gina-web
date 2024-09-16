@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
+    background-color: #2B3034;
 }
 
 header {
@@ -25,7 +26,7 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 nav ul li {
@@ -36,8 +37,13 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    border: 2px solid #fff;
+    border-radius: 5px;
 }
