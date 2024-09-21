@@ -1,49 +1,67 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #2B3034;
-}
-
+/* Estilos para el header */
 header {
-    background-color: #2B3034;
+    background-color: #2f3a40; /* Color de fondo */
+    padding: 10px 0; /* Espaciado interno */
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    position: relative; /* Necesario para posicionar el logo */
 }
 
-.logo {
-    color: #fff;
+header .logo {
     font-size: 24px;
     font-weight: bold;
+    color: #fff;
+    margin-right: auto; /* Empuja el logo hacia la izquierda */
+    margin-left: 20px; /* Espacio del logo al borde izquierdo */
 }
 
-nav ul {
+header nav {
+    display: flex;
+    justify-content: center; /* Centra los enlaces */
+    align-items: center;
+}
+
+header .nav-links {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 20px; /* Espacio entre los enlaces */
 }
 
-nav ul li {
-    display: inline;
+header .nav-links li {
+    margin: 0;
 }
 
-nav ul li a {
-    color: #fff;
+header .nav-links a {
     text-decoration: none;
-    font-size: 18px;
+    color: #fff;
     font-weight: bold;
-    padding: 10px 20px;
-    border: 2px solid transparent;
-    transition: all 0.3s ease;
+    padding: 10px 15px;
+    border: 2px solid transparent; /* Añadir borde transparente */
+    transition: all 0.3s ease; /* Efecto de transición */
 }
 
-nav ul li a:hover {
-    border: 2px solid #fff;
-    border-radius: 5px;
+header .nav-links a:hover {
+    border: 2px solid #fff; /* Añadir borde en hover */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Para dispositivos móviles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Disposición vertical */
+    }
+
+    header .logo {
+        margin-bottom: 15px; /* Espaciado inferior */
+    }
+
+    header nav {
+        justify-content: center;
+    }
+
+    header .nav-links {
+        flex-direction: column; /* Lista de navegación vertical */
+        gap: 10px; /* Espaciado entre los elementos */
+    }
 }
