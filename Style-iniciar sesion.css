@@ -17,6 +17,7 @@ header {
     background-color: #333;
     padding: 10px;
     color: white;
+    position: fixed; /* Fija el header en la parte superior */
 }
 
 .navbar {
@@ -50,23 +51,6 @@ header {
     height: 60vh;
     background-color: #2f4f4f;
 }
-
-/*.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-    
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.icon-container {
-    background-color: yellow;
-    padding: 20px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}*/
 
 .icon-container img {
     width: 100px;
@@ -129,6 +113,16 @@ footer {
     flex-direction: column;
     align-items: center;
     padding-bottom: 100px; /* Aumenta el padding inferior */
+}
+
+.footer-content hr {
+    width: 80%;
+    margin: 10px 0;
+}
+.logo2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
 }
 
 .footer-content h2 {
