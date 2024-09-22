@@ -12,72 +12,63 @@ body {
     padding: -10px;
 }
 
-/* Header Styling */
 header {
-    background-color: #333;
-    padding: 10px;
-    color: white;
-    position: fixed;
+    position:fixed;
     top: 0%;
     width: 100%;
-}
-
-.navbar {
+    background-color: #20292f;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+
 }
 
 .logo {
+    color: #fff;
     font-size: 24px;
     font-weight: bold;
 }
 
-.nav-links {
+nav ul {
     list-style: none;
     display: flex;
-    gap: 60px;
+    gap: 30px;
 }
 
-.nav-links li a {
-    color: white;
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: #fff;
     text-decoration: none;
     font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    border: 2px solid #fff;
+    border-radius: 5px;
 }
 
 /* Login Section */
-.login-section {
+.login-container {
     display: flex;
+    flex-direction: column ;
     justify-content: center;
     align-items: center;
     height: 60vh;
     background-color: #2f4f4f;
-    padding-top: 20px;
 }
-
-/*.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px;
-    background-color: #4d6a6a;
-    border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.icon-container {
-    background-color: yellow;
-    padding: 20px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}*/
 
 .icon-container img {
     width: 100px;
     height: 100px;
     position: relative;
-    top: 200px; /* Ajusta la posición vertical */
-    left: -80px; /* Ajusta la posición horizontal */
 }
 
 form {
@@ -124,49 +115,78 @@ form {
     color: black;
 }
 
-/* Footer Styling */
 footer {
-    background-color: #333;
-    color: white;
-    padding: 50px;
+    bottom: 0;
+    width: 100%;
+    background-color: #333; /* Color de fondo del footer */
+    color: #fff; /* Color de texto */
+    padding: 10px 0; /* Espacio interno */
     text-align: center;
+  }
+  
+.container footer {
+    display: flex; /* Activa el contexto flex */
+    flex-direction: column; /* Cambia la dirección a columna */
+    padding: 20px; /* Espaciado interno */
+    background-color: #20292f; /* Color de fondo */
 }
 
-.footer-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.logo2 {
+    display: flex; /* Activa el contexto flex */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px 0;
 }
 
-.footer-content h2 {
-    margin-bottom: 10px;
+.container-footer hr {
+    width: 80%; /* Ajusta el ancho del <hr> al 80% del contenedor */
+    margin: 20px auto; /* Centra el <hr> y añade margen superior e inferior */
+    border: 0.5px solid #ccc; /* Define el grosor y color del borde */
+    height: 0; /* Elimina la altura por defecto del <hr> */
 }
 
-.footer-content p {
-    margin-bottom: 10px;
+.social-media h2 {
+    display: flex; /* Activa el contexto flex */
+    flex-direction: column; /* Cambia la dirección a columna */
+    align-items: center; /* Centra horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    margin-bottom: 5px;
+    font-size: 24px;
+    color: #fff;
 }
 
-.social-icons {
-    display: flex;
-    gap: 60px;
-    margin-bottom: 15px;
+.icons {
+    display: flex; /* Activa Flexbox */
+    justify-content: center; /* Centra los iconos horizontalmente */
+    align-items: center; /* Centra los iconos verticalmente */
+    gap: 100px; /* Espacio entre los iconos (puedes ajustarlo según tu necesidad) */
+    padding: 20px; /* Espaciado interno para el contenedor, opcional */
 }
 
-.social-icons img {
-    width: 60px;
-    height: 60px;
+.icons span {
+    font-size: 20px;
+    color: #fff;
 }
 
 .footer-links {
-    list-style: none;
+    padding-top: 60px; /* Espaciado superior */
+    display: flex; /* Convertimos el contenedor en un flexbox */
+    flex-direction: column; /* Cambiamos la dirección a columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    gap: 10px; /* Espaciado entre las columnas */
+    color: yellow; /* Color de texto */
+    font-weight: bold; /* Negrita */
 }
 
-.footer-links li {
-    margin: 5px 0;
+.footer-links p {
+    margin: 0; /* Elimina los márgenes de los párrafos */
+    padding: 10px 0; /* Espaciado interno para cada elemento */
 }
 
-.footer-links li a {
-    color: yellow;
-    text-decoration: none;
-    font-size: 14px;
+
+.footer-links p:hover {
+    text-decoration: underline;
 }
