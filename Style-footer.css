@@ -33,7 +33,7 @@ footer {
 
 .container-footer hr {
     width: 80%; /* Ajusta el ancho del <hr> al 80% del contenedor */
-    margin-top: 20px auto; /* Centra el <hr> y añade margen superior e inferior */
+    margin: 20px auto; /* Centra el <hr> y añade margen superior e inferior */
     border: 0.5px solid #ccc; /* Define el grosor y color del borde */
     height: 0; /* Elimina la altura por defecto del <hr> */
 }
@@ -42,7 +42,7 @@ footer {
     display: flex; /* Activa el contexto flex */
     flex-direction: column; /* Cambia la dirección a columna */
     align-items: center; /* Centra horizontalmente */
-    padding: 20px; /* Espaciado interno */
+    justify-content: center; /* Centra verticalmente */
     font-size: 24px;
     color: #fff;
 }
