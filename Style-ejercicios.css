@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #2B3034;
-    color: #fff;
-}
-
 header {
     position:fixed;
     top: 0%;
@@ -52,18 +46,28 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-h1 {
-    text-align: center;
-    font-size: 36px;
-    color: yellow;
-    margin-bottom: 20px;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #333333;
+    color: #fff;
 }
 
 .ejercicios-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #2f4f4f;
+    background: linear-gradient(#527374,#b55e39);
+    padding-top: 100px;
+}
+
+.ejercicios-section h1 {
+    text-align: center;
+    font-size: 36px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px yellow;
 }
 
 .ejercicios-con-maquina, .ejercicios-sin-maquina {
@@ -73,37 +77,32 @@ h1 {
     margin: 20px 0;
     padding: 20px;
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .ejercicios-sin-maquina h2, .ejercicios-con-maquina h2 {
-    font-size: 28px;
+    font-size: 30px;
     background-color: yellow;
     padding: 10px;
     color: black;
     border-radius: 10px;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 .grid-ejercicios {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    display: grid; /* Activa el contexto de cuadrícula */
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    grid-template-rows: repeat(2, 1fr); /* 2 filas iguales */
+    gap: 20px; /* Espacio entre los elementos de la cuadrícula */
+    padding: 20px; /* Espacio interno alrededor del contenedor */
+    justify-items: center; /* Centra los elementos en cada celda */
+    align-items: center;
 }
 
 .ejercicio img {
-    width: 100%;
+    width: auto;
     height: auto;
-    border: 3px solid yellow;
-    border-radius: 10px;
-}
-
-/* Agrega algo de margen inferior a las secciones para que no estén tan juntas */
-.ejercicios-con-maquina {
-    margin-bottom: 40px;
-}
-
-.ejercicios-sin-maquina {
-    margin-bottom: 40px;
 }
 
 footer {
@@ -111,7 +110,6 @@ footer {
     width: 100%;
     background-color: #333; /* Color de fondo del footer */
     color: #fff; /* Color de texto */
-    padding: 10px 0; /* Espacio interno */
     text-align: center;
   }
   
@@ -176,6 +174,7 @@ footer {
 .footer-links p {
     margin: 0; /* Elimina los márgenes de los párrafos */
     padding: 10px 0; /* Espaciado interno para cada elemento */
+    font-size: large; /* Tamaño de fuente */
 }
 
 
