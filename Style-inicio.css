@@ -34,23 +34,13 @@ body {
 
 
 .banner-text {
-    font-size: 35px; /* Tamaño del texto */
-    font-weight: bold; /* Negrita en el texto */
+    font-size: 60px; /* Tamaño del texto */
+    font-weight: 900; /* Negrita en el texto */
     color: #ffff00; /* Color del texto (amarillo) */
     text-align: center; /* Centrado del texto */
     line-height: 1.5; /* Espaciado entre líneas */
     margin: 0; /* Eliminar márgenes */
     padding: 20px; /* Espaciado interno */
     max-width: 80%; /* Ancho máximo del texto */
-    text-shadow: 
-        -2px -2px 0 #000, /* Sombra superior izquierda */
-         2px -2px 0 #000, /* Sombra superior derecha */
-        -2px  2px 0 #000, /* Sombra inferior izquierda */
-         2px  2px 0 #000, /* Sombra inferior derecha */
-         3px  3px 0 #000, /* Sombra extra para mayor grosor */
-        -3px -3px 0 #000, /* Sombra extra para mayor grosor */
-         4px  4px 0 #000, /* Sombra extra adicional */
-        -4px -4px 0 #000, /* Sombra extra adicional */
-         5px  5px 0 #000, /* Sombra adicional para grosor */
-        -5px -5px 0 #000; /* Sombra adicional para grosor */
+    -webkit-text-stroke: 4px black;
 }
