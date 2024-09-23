@@ -13,7 +13,60 @@ body {
 }
 
 /* Header Styling */
+
 header {
+    position: fixed; 
+    top: 0%;
+    width: 100%;
+    background-color: #20292f; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px; 
+}
+
+.navbar {
+    display: flex;
+    width: 100%; /* Añade esto */
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.logo {
+    color: #fff; 
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0; /* Cambia esto */
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px; 
+    margin-right: 0; /* Cambia esto */
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    color: #fff; 
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px; 
+    border: 2px solid transparent; 
+    transition: all 0.3s ease; 
+}
+
+.nav-links li a:hover {
+    border: 2px solid #fff; /* Cambia el color del borde al pasar el mouse */
+    border-radius: 5px; /* Agrega un radio de esquina */
+}
+/* Header Styling 
+header {
+    
     background-color: #333;
     padding: 10px;
     color: white;
@@ -40,7 +93,7 @@ header {
     color: white;
     text-decoration: none;
     font-size: 18px;
-}
+}*/
 
 /* Login Section */
 .login-section {
