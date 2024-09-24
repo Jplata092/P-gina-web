@@ -54,6 +54,10 @@ footer {
     gap: 100px; /* Espacio entre los iconos (puedes ajustarlo según tu necesidad) */
 }
 
+.icons img:hover {
+    transform: scale(1.1);
+}
+
 .icons span {
     font-size: 20px;
     color: #fff;
@@ -78,4 +82,13 @@ footer {
 
 .footer-links p:hover {
     text-decoration: underline;
+    transform: scale(1.1);
+}
+
+.footer-links ul{
+    list-style-type: none; /* Elimina los puntos de la lista */
+}
+
+.icons li {
+    list-style-type: none; /* Elimina los puntos de los elementos de la lista */
 }
