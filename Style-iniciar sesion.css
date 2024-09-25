@@ -26,6 +26,10 @@ body {
     width: 100px;
 }
 
+.submit-button:hover {
+    transform: scale(1.1);
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -64,4 +68,36 @@ form {
 .check-icon {
     font-size: 24px;
     color: black;
+}
+
+.crear-cuenta li{
+    list-style-type: none; /* Eliminar los puntos */
+    padding: 0; /* Eliminar el relleno de la lista */
+    margin: 0; /* Eliminar el margen de la lista */
+    display: flex; /* Alinear los elementos en línea */
+    align-items: center; /* Alinear verticalmente al centro */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    color: #ffffff; /* Color del enlace */
+}
+
+
+.crear-cuenta ul{
+    position: relative; /* Posición relativa para el contenedor */
+    list-style-type: none; /* Eliminar los puntos de la lista */
+    padding: 0; /* Eliminar el relleno de la lista */
+    margin: 0; /* Eliminar el margen de la lista */
+    display: flex; /* Alinear los elementos en una sola línea */
+    align-items: center; /* Alinear verticalmente al centro */
+}
+
+
+.crear-cuenta li a {
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    color: #eeff00; /* Color del enlace */
+    font-weight: bold; /* Negrita para el enlace */
+    margin-right: 10px; /* Añadir espacio entre los elementos de la lista */
+}
+
+.crear-cuenta li a:hover {
+    text-decoration: underline; /* Aumentar el tamaño del enlace al pasar el ratón */
 }
