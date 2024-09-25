@@ -20,10 +20,10 @@ body {
 
 .ejercicios-section h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 60px;
     color: black;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     -webkit-text-stroke: 1px yellow;
 }
 
@@ -55,9 +55,14 @@ body {
     padding: 20px; /* Espacio interno alrededor del contenedor */
     justify-items: center; /* Centra los elementos en cada celda */
     align-items: center;
+    list-style-type: none; /* Elimina los puntos de la lista */
 }
 
 .ejercicio img {
     width: auto;
     height: auto;
+}
+
+.ejercicio:hover {
+    transform: scale(1.1);
 }
