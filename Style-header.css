@@ -1,5 +1,6 @@
 header {
-    background-color: #333; /* Color de fondo */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro con 50% de opacidad */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
     color: #fff; /* Color del texto */
     padding: 10px 20px; /* Espaciado interno */
     position: fixed; /* Fija el header */
@@ -9,7 +10,6 @@ header {
     display: flex; /* Flexbox para el contenido del header */
     justify-content: center; /* Centra el contenedor principal */
     align-items: center; /* Alinea verticalmente los elementos */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra opcional para destacar */
 }
 
 .header-container {
