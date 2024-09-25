@@ -5,14 +5,10 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ocupa toda la altura de la ventana */
-    width: 100vw; /* Ocupa toda la anchura de la ventana */
-    overflow: hidden; /* Elimina los scrolls */
+    flex-direction: column; /* Separa el contenido verticalmente */
+    min-height: 100vh; /* Ocupa al menos la altura de la ventana */
+    margin: 0;
 }
 
 .slider {

@@ -5,21 +5,18 @@
 }
 
 footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-color: #333; /* Color de fondo del footer */
-    color: #fff; /* Color de texto */
-    padding: 10px; /* Espacio interno */
-    text-align: center;
-  }
-  
-
-.container footer {
-    display: flex; /* Activa el contexto flex */
-    flex-direction: column; /* Cambia la dirección a columna */
+    background-color: #333; /* Color de fondo */
+    color: #fff; /* Color del texto */
     padding: 20px; /* Espaciado interno */
-    background-color: #20292f; /* Color de fondo */
+    text-align: center; /* Centramos el texto */
+    position: relative; /* Evita conflictos con otros elementos */
+    z-index: 10; /* Coloca el footer por encima de otros elementos */
+}
+
+.container-footer {
+    background-color: #333; /* Asegura que el contenedor también tenga el mismo fondo */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Espacio interno */
 }
 
 .logo2 {
