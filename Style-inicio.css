@@ -5,10 +5,10 @@
 }
 
 body {
-    display: flex;
-    flex-direction: column; /* Separa el contenido verticalmente */
-    min-height: 100vh; /* Ocupa al menos la altura de la ventana */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
+    padding: 0;
 }
 
 .slider {
@@ -18,7 +18,7 @@ body {
     position: relative;
     width: 100%; /* Ocupa todo el ancho */
     height: 100%; /* Ocupa todo el alto */
-    overflow: hidden;
+    overflow: hidden; /* Añade scroll si el contenido es más grande */
 }
 
 .slides {
