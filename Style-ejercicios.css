@@ -6,7 +6,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f3f3f3;
+    background-color: #f0f0f0;
     color: #fff;
 }
 
@@ -28,7 +28,7 @@ body {
 
 .ejercicios-con-maquina, .ejercicios-sin-maquina {
     width: 60%;
-    background-color: #7c7c7c;
+    background-color: #ffffff;
     border-radius: 20px;
     margin: 20px 0;
     padding: 20px;
@@ -39,7 +39,7 @@ body {
 
 .ejercicios-sin-maquina h2, .ejercicios-con-maquina h2 {
     font-size: 30px;
-    background-color: yellow;
+    background-color: #ffd000;
     padding: 10px;
     color: black;
     border-radius: 10px;

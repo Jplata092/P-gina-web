@@ -96,7 +96,7 @@ form {
 
 .crear-cuenta li a {
     text-decoration: none; /* Eliminar el subrayado del enlace */
-    color: #f1ff2f; /* Color del enlace */
+    color: #ffd000; /* Color del enlace */
     font-weight: bold; /* Negrita para el enlace */
     margin-right: 10px; /* Añadir espacio entre los elementos de la lista */
 }
