@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
+    background-color: #e7e7e7;
     color: #333;
     min-height: 50vh; /* Altura mínima igual a la ventana */
 }
@@ -19,15 +19,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 70vh; /* Ocupa el 100% de la altura de la ventana */
-    background-color: #2f4f4f;
+    background-color: #e7e7e7;
 }
 
 .icon-container img {
     width: 100px;
-}
-
-.submit-button:hover {
-    transform: scale(1.1);
 }
 
 form {
@@ -48,6 +44,7 @@ form {
     text-align: center;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar el contenedor */
 }
 
 .submit-button {
@@ -63,23 +60,17 @@ form {
     cursor: pointer;
     margin-top: 20px;
     margin-left: 500px; /* Ajusta la posición 100px hacia la derecha */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar el contenedor */
+}
+
+.submit-button:hover {
+    transform: scale(1.1);
 }
 
 .check-icon {
     font-size: 24px;
     color: black;
 }
-
-.crear-cuenta li{
-    list-style-type: none; /* Eliminar los puntos */
-    padding: 0; /* Eliminar el relleno de la lista */
-    margin: 0; /* Eliminar el margen de la lista */
-    display: flex; /* Alinear los elementos en línea */
-    align-items: center; /* Alinear verticalmente al centro */
-    text-decoration: none; /* Eliminar el subrayado del enlace */
-    color: #ffffff; /* Color del enlace */
-}
-
 
 .crear-cuenta ul{
     position: relative; /* Posición relativa para el contenedor */
@@ -90,10 +81,21 @@ form {
     align-items: center; /* Alinear verticalmente al centro */
 }
 
+.crear-cuenta li{
+    font-size: 20px;
+    list-style-type: none; /* Eliminar los puntos */
+    padding: 0; /* Eliminar el relleno de la lista */
+    margin: 0; /* Eliminar el margen de la lista */
+    display: flex; /* Alinear los elementos en línea */
+    align-items: center; /* Alinear verticalmente al centro */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    color: #000000; /* Color del enlace */
+    font-weight: bold; /* Negrita para el enlace */
+}
 
 .crear-cuenta li a {
     text-decoration: none; /* Eliminar el subrayado del enlace */
-    color: #eeff00; /* Color del enlace */
+    color: #f1ff2f; /* Color del enlace */
     font-weight: bold; /* Negrita para el enlace */
     margin-right: 10px; /* Añadir espacio entre los elementos de la lista */
 }
