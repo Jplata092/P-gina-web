@@ -66,6 +66,22 @@ body {
     background-color: rgba(0,0,0,0.7);
 }
 
+.gif {
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+}
+
+.gif-container {
+    position: relative;
+    display: flex; /* Para usar flexbox */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
 /* Estilo para el contenedor de la explicación */
 .explanation {
     background-color: #ffffff;
