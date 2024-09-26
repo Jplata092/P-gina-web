@@ -27,7 +27,7 @@ body {
 }
 
 .ejercicios-con-maquina, .ejercicios-sin-maquina {
-    width: 90%;
+    width: 60%;
     background-color: #7c7c7c;
     border-radius: 20px;
     margin: 20px 0;
