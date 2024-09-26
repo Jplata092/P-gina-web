@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ocupa el 100% de la altura de la ventana */
+    height: 70vh; /* Ocupa el 100% de la altura de la ventana */
     background-color: #2f4f4f;
 }
 
