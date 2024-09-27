@@ -51,7 +51,7 @@ body {
 .grid-ejercicios {
     display: grid; /* Activa el contexto de cuadrícula */
     grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
-    grid-template-rows: repeat(2, 1fr); /* 2 filas iguales */
+    grid-template-rows: repeat(3, 1fr); /* 3 filas iguales */
     gap: 20px; /* Espacio entre los elementos de la cuadrícula */
     padding: 20px; /* Espacio interno alrededor del contenedor */
     justify-items: center; /* Centra los elementos en cada celda */
