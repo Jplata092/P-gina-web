@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2B3034;
+    color: #fff;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #2B3034;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cancel-button {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cancel-button:hover {
+    background-color: #FFD700;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.titulo-ejercicio {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+.video-container {
+    position: relative;
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.video-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.play-button img {
+    width: 40px;
+    height: 40px;
+}
+
+.descripcion-ejercicio {
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 800px;
+    color: #fff;
+    background: linear-gradient(to bottom, #2B3034, #5e6a6b);
+    padding: 20px;
+    border-radius: 10px;
+}
