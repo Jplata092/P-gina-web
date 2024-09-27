@@ -6,26 +6,37 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #2B3034;
+    background: linear-gradient(to bottom, #000000, #ffffff);
     color: #fff;
-    padding: 20px;
+    height: 100vh; /* Ajuste para altura completa */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
 }
 
 .header {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #2B3034;
+    background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Mantener el header siempre visible */
 }
 
 .logo {
+    color: #fff;
     font-size: 24px;
     font-weight: bold;
 }
 
 .cancel-button {
-    background-color: yellow;
+    background-color: rgb(243, 243, 9);
     color: black;
     border: none;
     padding: 10px 20px;
@@ -35,20 +46,20 @@ body {
 }
 
 .cancel-button:hover {
-    background-color: #FFD700;
+    background-color: #ffe135;
 }
 
-main {
+.main-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 .titulo-ejercicio {
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 36spx;
+    margin: 60px;
 }
 
 .video-container {
@@ -61,16 +72,6 @@ main {
 .video-container img {
     width: 100%;
     border-radius: 10px;
-}
-
-.play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    padding: 20px;
 }
 
 .play-button img {
