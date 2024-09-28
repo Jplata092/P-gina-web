@@ -15,7 +15,7 @@ body {
 /* Login Section */
 .login-container {
     display: flex;
-    flex-direction: column ;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 70vh;
@@ -35,6 +35,21 @@ form {
 }
 
 .input-button {
+    background-color: yellow;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar el contenedor */
+}
+
+select {
     background-color: yellow;
     color: black;
     font-size: 18px;
