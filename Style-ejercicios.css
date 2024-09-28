@@ -25,7 +25,7 @@ body {
     padding: 20px; /* Espacio interno */
     border-radius: 15px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    max-width: 800px; /* Ancho máximo del contenedor */
+    max-width: 1500px; /* Ancho máximo del contenedor */
     margin: 20px auto; /* Centrar el contenedor */
     line-height: 1.6; /* Mejorar la separación entre líneas */
     font-weight: 600; /* Añadir un poco de peso a la fuente */
