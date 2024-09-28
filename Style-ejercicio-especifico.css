@@ -99,3 +99,16 @@ body {
     transform: scale(1.1);
     opacity: 0.5; /* Aplica 50% de transparencia a la imagen */
 }
+
+.text-container {
+    display: block; /* Asegura que sea un bloque visible */
+    text-align: center; /* Centra el texto */
+    background-color: #ffd000; /* Color de fondo para visualizar */
+    padding: 10px; /* Espaciado interno */
+    color: black; /* Asegúrate de que el texto sea visible */  
+}
+
+.text-container p {
+    font-weight: 600;
+    font-size: large;
+}
