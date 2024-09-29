@@ -57,6 +57,19 @@ footer {
     gap: 100px; /* Espacio entre los iconos (puedes ajustarlo según tu necesidad) */
 }
 
+@media (max-width: 720px) {
+    .icons {
+        gap: 10px; /* Ajusta el espacio entre los iconos */
+    }
+}
+
+@media (max-width: 400px) {
+    .icons {
+        flex-direction: column; /* Cambia la dirección a columna */
+        gap: 10px; /* Ajusta el espacio entre los iconos */
+    }
+}
+
 .icons img:hover {
     transform: scale(1.1);
 }
@@ -100,8 +113,6 @@ footer {
 .icons li {
     list-style-type: none; /* Elimina los puntos de los elementos de la lista */
 }
-
-
 
 
 /*Parte del mapa*/

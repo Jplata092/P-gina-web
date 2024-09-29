@@ -63,6 +63,13 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar el contenedor */
 }
 
+@media (max-width: 768px) {
+    .submit-button {
+        margin-left: 0px; /* Ajusta la posición a la izquierda */
+        margin-top: 30px; /* Ajusta la posición a la izquierda */
+    }
+}
+
 .submit-button:hover {
     transform: scale(1.1);
 }
@@ -86,7 +93,7 @@ form {
     font-size: 20px;
     list-style-type: none; /* Eliminar los puntos */
     padding: 0; /* Eliminar el relleno de la lista */
-    margin: 0; /* Eliminar el margen de la lista */
+    margin-top: 20px; /* Eliminar el margen de la lista */
     display: flex; /* Alinear los elementos en línea */
     align-items: center; /* Alinear verticalmente al centro */
     text-decoration: none; /* Eliminar el subrayado del enlace */
@@ -98,7 +105,6 @@ form {
     text-decoration: none; /* Eliminar el subrayado del enlace */
     color: #ffd000; /* Color del enlace */
     font-weight: bold; /* Negrita para el enlace */
-    margin-right: 10px; /* Añadir espacio entre los elementos de la lista */
 }
 
 .crear-cuenta li a:hover {

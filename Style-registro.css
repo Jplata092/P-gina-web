@@ -52,7 +52,6 @@ form {
 .submit-button {
     background-color: yellow;
     border: none;
-    padding: 10px;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -60,13 +59,18 @@ form {
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    margin-top: 20px;
     margin-left: 500px; /* Ajusta la posición 100px hacia la derecha */
     position: relative;
     top: -80px; /* Sube el botón 40px hacia arriba */
     float: right;
-    margin-right: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar el contenedor */
+}
+
+@media (max-width: 768px) {
+    .submit-button {
+        margin-left: 0px; /* Ajusta la posición a la izquierda */
+        margin-top: 100px; /* Ajusta la posición a la izquierda */
+    }
 }
 
 .submit-button:hover {

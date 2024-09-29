@@ -32,6 +32,27 @@ header {
     margin: 0; /* Elimina margen por defecto */
 }
 
+.menu-links {
+    display: none; /* Oculta el menú en pantallas grandes */
+
+}
+
+.menu-links li {
+    margin: 0; /* Elimina margen por defecto */
+    list-style: none; /* Elimina los puntos de la lista */
+}
+
+@media (max-width: 670px) {
+    .nav-links {
+        display: none; /* Oculta el menú en pantallas pequeñas */
+    }
+    .menu-links {
+        display: block; /* Muestra el menú en pantallas pequeñas */
+        font-size: 24px; /* Tamaño de la fuente del menú */
+        cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    }
+}
+
 .nav-links li {
     margin: 0; /* Elimina margen por defecto */
 }

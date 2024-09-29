@@ -93,13 +93,13 @@ p {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1151px) {
     .grid-ejercicios {
         grid-template-columns: repeat(2, minmax(150px, 1fr)); /* Ajusta a 2 columnas */
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 618px) {
     .grid-ejercicios {
         grid-template-columns: repeat(1, minmax(100px, 1fr)); /* Ajusta a 1 columna */
     }
