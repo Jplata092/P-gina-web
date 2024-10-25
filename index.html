@@ -26,21 +26,35 @@
      </nav>
     </div>
 </header>
- 
+
 <body>
 
-        <div class="slider">
-            <div class="slides">
-                <!-- Imagenes del slider -->
-                <div class="slide"><img src="Images/Banner1.webp" alt="Imagen 1"></div>
-                <div class="slide"><img src="Images/Banner2.webp" alt="Imagen 2"></div>
-                <div class="slide"><img src="Images/Banner3.webp" alt="Imagen 3"></div>
+    <div class="carrusel">
+        <div class="carrusel-contenido">
+            <div class="carrusel-item active">
+                <img src="Images/Banner1.webp" alt="Imagen 1">
             </div>
+            <div class="carrusel-item">
+                <img src="Images/Banner2.webp" alt="Imagen 2">
+            </div>
+            <div class="carrusel-item">
+                <img src="Images/Banner3.webp" alt="Imagen 3">
+            </div>
+        </div>
 
-            <!-- Controles de navegación -->
+        <div class="carrusel-controles">
             <button class="prev">&#10094;</button>
             <button class="next">&#10095;</button>
         </div>
+
+        <div class="carrusel-indicadores">
+            <span class="indicador active"></span>
+            <span class="indicador"></span>
+            <span class="indicador"></span>
+        </div>
+        
+    </div>
+
         <div class="gif-container"><img src="Iconos/Arrow-down.gif" alt="gif 1"></div>
 
         <div class="explanation">
@@ -69,6 +83,43 @@
         <div><a href="Ejercicios.html" class="botton-exercise">CONOCE LOS EJERCICIOS</a></div>
     </div>
 
+    <script>
+        // JavaScript para el carrusel
+        const carrusel = document.querySelector('.carrusel');
+        const carruselContenido = document.querySelector('.carrusel-contenido');
+        const carruselItems = document.querySelectorAll('.carrusel-item');
+        const prevButton = document.querySelector('.prev');
+        const nextButton = document.querySelector('.next');
+        const indicadores = document.querySelectorAll('.indicador');
+
+        let currentIndex = 0;
+
+        // Función para cambiar de imagen
+        function changeImage() {
+            carruselItems[currentIndex].classList.remove('active');
+            indicadores[currentIndex].classList.remove('active');
+            currentIndex = (currentIndex + 1) % carruselItems.length;
+            carruselItems[currentIndex].classList.add('active');
+            indicadores[currentIndex].classList.add('active');
+        }
+
+        // Función para cambiar de imagen automáticamente
+        setInterval(changeImage, 5000);
+
+        // Eventos para cambiar de imagen manualmente
+        prevButton.addEventListener('click', () => {
+            changeImage();
+        });
+
+        nextButton.addEventListener('click', () => {
+            changeImage();
+        });
+
+        // Inicializar el carrusel
+        carruselItems[0].classList.add('active');
+        indicadores[0].classList.add('active');
+    </script>
+
 </body>
 
 <footer>
@@ -94,8 +145,6 @@
         </nav>
     </div>
 </footer>
-
-
 
 <!-- JavaScript para el modal -->
 
