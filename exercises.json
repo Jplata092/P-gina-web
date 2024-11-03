@@ -1,0 +1,65 @@
+[
+    {
+      "nombre": "elevaciones frontales con maquina",
+      "imagen": "Images/con maquina/hombro/elevaciones frontales con maquina.jpg",
+      "descripcion": "Ejercicio de pecho y brazos",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    },
+    {
+      "nombre": "elevaciones laterales con maquina",
+      "imagen": "Images/con maquina/hombro/elevaciones laterales con maquina.jpg",
+      "descripcion": "Ejercicio de piernas y glúteos",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    },
+    {
+      "nombre": "elevaciones laterales con polea",
+      "imagen": "Images/con maquina/hombro/elevaciones laterales con polea.jpg",
+      "descripcion": "Ejercicio de espalda y brazos",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    },
+    {
+      "nombre": "elevaciones posteriores con maquina",
+      "imagen": "Images/con maquina/hombro/elevaciones posteriores con maquina.jpg",
+      "descripcion": "Ejercicio de abdomen",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    },
+    {
+      "nombre": "maquina de abduccion",
+      "imagen": "Images/con maquina/hombro/maquina de abduccion.jpg",
+      "descripcion": "Ejercicio de piernas y glúteos",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    },
+    {
+      "nombre": "maquina de rotacion con manija",
+      "imagen": "Images/con maquina/hombro/maquina de rotacion con manija.jpg",
+      "descripcion": "Ejercicio de tríceps",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    },
+    {
+      "nombre": "prensa de hombros con maquina",
+      "imagen": "Images/con maquina/hombro/prensa de hombros con maquina.jpg",
+      "descripcion": "Ejercicio de abdomen",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    },
+    {
+      "nombre": "prensa de hombros en angulo con maquina",
+      "imagen": "Images/con maquina/hombro/prensa de hombros en angulo con maquina.jpg",
+      "descripcion": "Ejercicio de cuerpo completo",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    },
+    {
+      "nombre": "rotaciones de hombro con maquina de cable",
+      "imagen": "Images/con maquina/hombro/rotaciones de hombro con maquina de cable.jpg",
+      "descripcion": "Ejercicio de abdomen",
+      "video": "https://www.youtube.com/enlace_del_video",
+      "tipo": "con maquina hombro"
+    }
+  ]
