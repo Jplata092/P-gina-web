@@ -83,6 +83,7 @@ body {
     width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
     height: auto; /* Ajusta la altura automáticamente */
     transition: transform 0.5s ease, opacity 0.5s ease; /* Añade transición para la opacidad */
+    border-radius: 5px;
 }
 
 .ejercicio:hover {
@@ -101,11 +102,13 @@ body {
 }
 
 .text-container {
+    border-radius: 5px;
     display: block; /* Asegura que sea un bloque visible */
     text-align: center; /* Centra el texto */
     background-color: #ffd000; /* Color de fondo para visualizar */
     padding: 10px; /* Espaciado interno */
-    color: black; /* Asegúrate de que el texto sea visible */  
+    color: black; /* Asegúrate de que el texto sea visible */ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .text-container p {

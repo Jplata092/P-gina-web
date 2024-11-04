@@ -23,7 +23,6 @@ body {
     color: black;
     font-weight: 900;
     margin-bottom: 10px;
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
 }
 
 .ejercicios-con-maquina, .ejercicios-sin-maquina {
@@ -80,6 +79,7 @@ body {
 }
 
 .ejercicio img {
+    border-radius: 7px;
     width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
     height: auto; /* Ajusta la altura automáticamente */
     transition: transform 0.5s ease;

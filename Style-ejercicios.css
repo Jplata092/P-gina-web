@@ -135,6 +135,7 @@ p {
 
 
 .ejercicio img {
+    border-radius: 5px;
     width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
     height: auto; /* Ajusta la altura automáticamente */
     transition: transform 0.5s ease, opacity 0.5s ease; /* Añade transición para la opacidad */
