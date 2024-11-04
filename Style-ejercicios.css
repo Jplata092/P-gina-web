@@ -134,12 +134,24 @@ p {
 }
 
 
-.ejercicio img {
-    border-radius: 5px;
-    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
-    height: auto; /* Ajusta la altura automáticamente */
-    transition: transform 0.5s ease, opacity 0.5s ease; /* Añade transición para la opacidad */
+.ejercicio {
+    position: relative; /* Necesario para ajustar el contenedor de la imagen */
+    width: 100%; /* Asegura que el contenedor ocupe todo el ancho de su celda */
+    padding-top: 100%; /* Proporción 1:1 (misma altura y ancho) */
+    overflow: hidden; /* Esconde el contenido que se salga del contenedor */
+    border-radius: 5px; /* Bordes redondeados para el contenedor */
 }
+
+.ejercicio img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Mantiene la imagen dentro del contenedor y la ajusta a la proporción */
+    transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
 
 .ejercicio:hover {
     transform: scale(1.1);
