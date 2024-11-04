@@ -68,3 +68,85 @@ header {
     background-color: #555; /* Color de fondo al pasar el mouse */
     border-radius: 5px; /* Esquinas redondeadas */
 }
+
+/* Overlay para oscurecer y desenfocar el fondo */
+.overlay {
+    display: none; /* Oculta el overlay por defecto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw; /* Ancho completo de la pantalla */
+    height: 100vh; /* Altura completa de la pantalla */
+    background: rgba(0, 0, 0, 0.5); /* Oscurece el fondo */
+    backdrop-filter: blur(5px); /* Efecto de desenfoque */
+    z-index: 999; /* Asegura que esté debajo del menú pero encima de otros elementos */
+    transition: opacity 0.3s ease; /* Transición para el overlay */
+}
+
+.overlay.active {
+    display: block; /* Muestra el overlay cuando está activo */
+}
+
+/* Estilos para el menú móvil deslizante */
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    right: -250px; /* Inicialmente, fuera de la pantalla */
+    width: 250px; /* Ancho del menú móvil */
+    height: 100vh; /* Altura completa de la pantalla */
+    background-color: rgba(0, 0, 0, 0.85); /* Fondo más oscuro que el overlay */
+    padding: 20px;
+    box-shadow: -4px 0 8px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidad */
+    z-index: 1000; /* Asegura que esté encima del overlay */
+    transition: right 0.3s ease; /* Transición de deslizamiento */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mobile-menu.active {
+    right: 0; /* Trae el menú al borde derecho de la pantalla */
+}
+
+.mobile-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-menu li {
+    margin: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Línea divisoria fina y blanca */
+    padding: 15px 0;
+}
+
+.mobile-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    text-align: center;
+}
+
+.mobile-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo semi-transparente en hover */
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* Ajustes para el icono de menú */
+.menu-links {
+    display: none;
+}
+
+@media (max-width: 670px) {
+    .nav-links {
+        display: none;
+    }
+    .menu-links {
+        display: block;
+    }
+}
+
+
+

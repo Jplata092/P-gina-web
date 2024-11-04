@@ -35,7 +35,7 @@ form {
 }
 
 .input-button {
-    background-color: yellow;
+    background-color: #ffd000;
     color: black;
     font-size: 18px;
     font-weight: bold;
@@ -50,7 +50,7 @@ form {
 }
 
 .submit-button {
-    background-color: yellow;
+    background-color: #ffd000;
     border: none;
     border-radius: 50%;
     width: 50px;

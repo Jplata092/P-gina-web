@@ -12,7 +12,7 @@
 <header>
     <div class="header-container">
         <div class="logo">TUTOSGYM</div>
-     <nav>
+        <nav>
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="Ejercicios.html">Ejercicios</a></li>
@@ -20,9 +20,22 @@
                 <li><a href="Iniciar sesion.html">Inicio de sesión</a></li>
             </ul>
             <ul class="menu-links">
-                <li><a href="#"><img src="Iconos/menu.svg" alt="Instagram"></a></li>
+                <li><a href="#" id="menu-icon"><img src="Iconos/menu.svg" alt="Menu"></a></li>
             </ul>
-     </nav>
+        </nav>
+    </div>
+
+    <!-- Fondo de overlay para oscurecer y desenfocar la pantalla -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Menú desplegable para dispositivos móviles -->
+    <div class="mobile-menu" id="mobile-menu">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Ejercicios.html">Ejercicios</a></li>
+            <li><a href="Registro.html">Registrarse</a></li>
+            <li><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+        </ul>
     </div>
 </header>
 
@@ -37,16 +50,6 @@
             <input type="text" placeholder="Nombre" class="input-button">
             <input type="text" placeholder="Apellido" class="input-button">
             <input type="email" placeholder="Correo electrónico" class="input-button">
-            <input type="number" placeholder="Edad" class="input-button">
-            <input type="number" placeholder="Peso (kg)" class="input-button">
-            <select name="estado" id="estado" class="input-button">
-                <option value="activo">Activo</option>
-                <option value="inactivo">Inactivo</option>
-            </select>
-        
-            <button class="submit-button">
-                <span class="check-icon">&#10004;</span>
-            </button>
         </form>
     </div>
 </body>
@@ -75,7 +78,24 @@
     </div>
 </footer>
 
-<!-- JavaScript para el modal (Se pasara a un archivo en especifico despues) -->
+<script>
+    // JavaScript para mostrar/ocultar el menú móvil y el overlay
+    document.getElementById("menu-icon").addEventListener("click", function (event) {
+        event.preventDefault();
+        const mobileMenu = document.getElementById("mobile-menu");
+        const overlay = document.getElementById("overlay");
+        mobileMenu.classList.toggle("active");
+        overlay.classList.toggle("active");
+    });
+
+    // Cerrar el menú si se hace clic en el overlay
+    document.getElementById("overlay").addEventListener("click", function () {
+        const mobileMenu = document.getElementById("mobile-menu");
+        const overlay = document.getElementById("overlay");
+        mobileMenu.classList.remove("active");
+        overlay.classList.remove("active");
+    });
+</script>
 
 <!-- Modal -->
 <div id="modalMapa" class="modal">

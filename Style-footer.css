@@ -86,7 +86,7 @@ footer {
     align-items: center; /* Centra los elementos horizontalmente */
     justify-content: center; /* Centra los elementos verticalmente */
     gap: 10px; /* Espaciado entre los elementos */
-    color: yellow; /* Color de texto */
+    color: #ffd000; /* Color de texto */
     font-weight: bold; /* Negrita */
     text-align: center; /* Asegura que el texto se centre dentro del contenedor */
 }
@@ -97,7 +97,7 @@ footer {
 }
 
 .footer-links li a {
-    color: yellow; /* Asegura que los enlaces sean amarillos */
+    color: #ffd000; /* Asegura que los enlaces sean amarillos */
     text-decoration: none; /* Quita el subrayado */
 }
 

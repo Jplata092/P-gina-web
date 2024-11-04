@@ -8,7 +8,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "elevaciones laterales con maquina",
+    "nombre": "Elevaciones laterales con maquina",
     "imagen": "Images/con maquina/hombro/elevaciones laterales con maquina.jpg",
     "descripcion": "Esta máquina trabaja directamente los deltoides laterales, fundamentales para mejorar la amplitud y estabilidad en el movimiento del hombro. Al realizar este ejercicio, fortaleces los músculos que permiten levantar el brazo hacia los lados.",
     "video": "https://www.youtube.com/watch?v=NkRQI9rrRN8",
@@ -16,7 +16,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "elevaciones laterales con polea",
+    "nombre": "Elevaciones laterales con polea",
     "imagen": "Images/con maquina/hombro/elevaciones laterales con polea.jpg",
     "descripcion": "Con el uso de poleas, este ejercicio permite trabajar los deltoides desde diversos ángulos, favoreciendo un fortalecimiento uniforme del hombro y mayor control en el rango de movimiento.",
     "video": "https://www.youtube.com/watch?v=jp070OTX3pA",
@@ -24,7 +24,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "elevaciones posteriores con maquina",
+    "nombre": "Elevaciones posteriores con maquina",
     "imagen": "Images/con maquina/hombro/elevaciones posteriores con maquina.jpg",
     "descripcion": "Este ejercicio se centra en los deltoides posteriores, ayudando a mejorar la postura y estabilidad de los hombros, lo cual es esencial para mantener el equilibrio muscular y prevenir lesiones.",
     "video": "https://www.youtube.com/watch?v=crU_NeckBrI",
@@ -32,7 +32,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "maquina de abduccion",
+    "nombre": "Máquina de abduccion",
     "imagen": "Images/con maquina/hombro/maquina de abduccion.jpg",
     "descripcion": "Diseñada para trabajar específicamente la abducción del hombro, este ejercicio fortalece los músculos responsables de alejar el brazo del cuerpo, mejorando la amplitud y estabilidad en movimientos laterales.",
     "video": "https://www.youtube.com/watch?v=12_CRnh11ko",
@@ -40,7 +40,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "maquina de rotacion con manija",
+    "nombre": "Máquina de rotacion con manija",
     "imagen": "Images/con maquina/hombro/maquina de rotacion con manija.jpg",
     "descripcion": "Este equipo permite ajustar la posición de la manija, lo cual facilita el enfoque en diferentes áreas del hombro y mejora la capacidad de rotación en múltiples direcciones.",
     "video": "https://www.youtube.com/watch?v=8jXx_aM46vk",
@@ -48,7 +48,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "prensa de hombros con maquina",
+    "nombre": "Prensa de hombros con maquina",
     "imagen": "Images/con maquina/hombro/prensa de hombros con maquina.jpg",
     "descripcion": "Este ejercicio activa los tres músculos principales del deltoides (anterior, lateral y posterior), proporcionando un fortalecimiento completo del hombro y mejorando su resistencia en movimientos de presión vertical.",
     "video": "https://www.youtube.com/watch?v=mAlK_wRJPLo",
@@ -56,7 +56,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "prensa de hombros en angulo con maquina",
+    "nombre": "Prensa de hombros en angulo con maquina",
     "imagen": "Images/con maquina/hombro/prensa de hombros en angulo con maquina.jpg",
     "descripcion": "Al realizar este ejercicio en un ángulo específico, se distribuye la carga en distintas áreas del deltoides, lo que permite un trabajo más específico en la parte superior del hombro y mejora la fuerza en ángulos variados.",
     "video": "https://www.youtube.com/watch?v=g4xAVOCqmvk",
@@ -64,7 +64,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "rotaciones de hombro de cable",
+    "nombre": "Rotaciones de hombro de cable",
     "imagen": "Images/con maquina/hombro/rotaciones de hombro con maquina de cable.jpg",
     "descripcion": "Utilizando cables, este ejercicio permite trabajar la rotación interna y externa del hombro, reforzando los músculos estabilizadores y mejorando la movilidad y la estabilidad articular del hombro.",
     "video": "https://www.youtube.com/watch?v=PUEUkMbqvNs",
@@ -72,7 +72,7 @@
     "musculo": "hombro"
   },
   {
-    "nombre": "pecho con cable",
+    "nombre": "Pecho con cable",
     "imagen": "Images/con maquina/pecho/pecho con cable.jpg",
     "descripcion": "Ejercicio de pecho y brazos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -80,7 +80,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "pecho de pivote",
+    "nombre": "Pecho de pivote",
     "imagen": "Images/con maquina/pecho/pecho con maquina de pivote.jpg",
     "descripcion": "Ejercicio de piernas y glúteos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -88,7 +88,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "pecho polea alta",
+    "nombre": "Pecho polea alta",
     "imagen": "Images/con maquina/pecho/pecho polea alta.png",
     "descripcion": "Ejercicio de espalda y brazos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -96,7 +96,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "pecho polea baja",
+    "nombre": "Pecho polea baja",
     "imagen": "Images/con maquina/pecho/pecho polea baja.png",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -104,7 +104,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "prensa de pecho con angulo",
+    "nombre": "Prensa de pecho con angulo",
     "imagen": "Images/con maquina/pecho/prensa de pecho con angulo.png",
     "descripcion": "Ejercicio de piernas y glúteos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -112,7 +112,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "prensa de pecho con manijas",
+    "nombre": "Prensa de pecho con manijas",
     "imagen": "Images/con maquina/pecho/prensa de pecho con manijas.png",
     "descripcion": "Ejercicio de tríceps",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -120,7 +120,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "prensa de pecho declinada",
+    "nombre": "Prensa de pecho declinada",
     "imagen": "Images/con maquina/pecho/prensa de pecho declinada.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -128,7 +128,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "prensa de pecho horizontal",
+    "nombre": "Prensa de pecho horizontal",
     "imagen": "Images/con maquina/pecho/prensa de pecho horizontal.jpg",
     "descripcion": "Ejercicio de cuerpo completo",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -136,7 +136,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "prensa de pecho inclinada",
+    "nombre": "Prensa de pecho inclinada",
     "imagen": "Images/con maquina/pecho/prensa de pecho inclinada.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -144,7 +144,7 @@
     "musculo": "pecho"
   },
   {
-    "nombre": "maquina curl con cable",
+    "nombre": "Máquina curl con cable",
     "imagen": "Images/con maquina/brazo/maquina curl con cable.jpg",
     "descripcion": "Ejercicio de pecho y brazos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -152,7 +152,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina curl de biceps",
+    "nombre": "Máquina curl de biceps",
     "imagen": "Images/con maquina/brazo/maquina curl de biceps.jpg",
     "descripcion": "Ejercicio de piernas y glúteos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -160,7 +160,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina curl inclinado",
+    "nombre": "Máquina curl inclinado",
     "imagen": "Images/con maquina/brazo/maquina curl inclinado.jpg",
     "descripcion": "Ejercicio de espalda y brazos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -168,7 +168,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina de curl declinado",
+    "nombre": "Máquina de curl declinado",
     "imagen": "Images/con maquina/brazo/maquina de curl declinado.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -176,7 +176,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina de extension con polea",
+    "nombre": "Máquina de extension con polea",
     "imagen": "Images/con maquina/brazo/maquina de extension con polea.jpg",
     "descripcion": "Ejercicio de piernas y glúteos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -184,7 +184,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina de extension declinada",
+    "nombre": "Máquina de extension declinada",
     "imagen": "Images/con maquina/brazo/maquina de extension declinada.jpg",
     "descripcion": "Ejercicio de tríceps",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -192,7 +192,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina de extension inclinada",
+    "nombre": "Máquina de extension inclinada",
     "imagen": "Images/con maquina/brazo/maquina de extension inclinada.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -200,7 +200,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina de press de brazos",
+    "nombre": "Máquina de press de brazos",
     "imagen": "Images/con maquina/brazo/maquina de press de brazos.jpg",
     "descripcion": "Ejercicio de cuerpo completo",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -208,7 +208,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina extension de triceps",
+    "nombre": "Máquina extension de triceps",
     "imagen": "Images/con maquina/brazo/maquina extension de triceps.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -216,7 +216,7 @@
     "musculo": "brazo"
   },
   {
-    "nombre": "maquina de deadlift con cable",
+    "nombre": "Máquina de deadlift con cable",
     "imagen": "Images/con maquina/espalda/maquina de deadlift con cable.jpg",
     "descripcion": "Ejercicio de pecho y brazos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -224,7 +224,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de hyperextension",
+    "nombre": "Máquina de hyperextension",
     "imagen": "Images/con maquina/espalda/maquina de hyperextension.jpg",
     "descripcion": "Ejercicio de piernas y glúteos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -232,7 +232,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de lat pull",
+    "nombre": "Máquina de lat pull",
     "imagen": "Images/con maquina/espalda/maquina de lat pull.jpg",
     "descripcion": "Ejercicio de espalda y brazos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -240,7 +240,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de low row",
+    "nombre": "Máquina de low row",
     "imagen": "Images/con maquina/espalda/maquina de low row.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -248,7 +248,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de press de espalda",
+    "nombre": "Máquina de press de espalda",
     "imagen": "Images/con maquina/espalda/maquina de press de espalda.jpg",
     "descripcion": "Ejercicio de piernas y glúteos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -256,7 +256,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de pull con polea",
+    "nombre": "Máquina de pull con polea",
     "imagen": "Images/con maquina/espalda/maquina de pull con polea.jpg",
     "descripcion": "Ejercicio de tríceps",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -264,7 +264,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de pull lateral",
+    "nombre": "Máquina de pull lateral",
     "imagen": "Images/con maquina/espalda/maquina de pull lateral.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -272,7 +272,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de remo vertical",
+    "nombre": "Máquina de remo vertical",
     "imagen": "Images/con maquina/espalda/maquina de remo vertical.jpg",
     "descripcion": "Ejercicio de cuerpo completo",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -280,7 +280,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de row inclinado",
+    "nombre": "Máquina de row inclinado",
     "imagen": "Images/con maquina/espalda/maquina de row inclinado.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -288,7 +288,7 @@
     "musculo": "espalda"
   },
   {
-    "nombre": "maquina de abduccion",
+    "nombre": "Máquina de abduccion",
     "imagen": "Images/con maquina/pierna/maquina de abduccion.jpg",
     "descripcion": "Ejercicio de pecho y brazos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -296,7 +296,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "maquina de curl de piernas",
+    "nombre": "Máquina de curl de piernas",
     "imagen": "Images/con maquina/pierna/maquina de curl de piernas.jpg",
     "descripcion": "Ejercicio de piernas y glúteos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -304,7 +304,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "maquina de curl declinado",
+    "nombre": "Máquina de curl declinado",
     "imagen": "Images/con maquina/pierna/maquina de curl declinado.jpg",
     "descripcion": "Ejercicio de espalda y brazos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -312,7 +312,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "maquina de extension de pierna",
+    "nombre": "Máquina de extension de pierna",
     "imagen": "Images/con maquina/pierna/maquina de extension de pierna.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -320,7 +320,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "maquina de hip thrust",
+    "nombre": "Máquina de hip thrust",
     "imagen": "Images/con maquina/pierna/maquina de hip thrust.jpg",
     "descripcion": "Ejercicio de piernas y glúteos",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -328,7 +328,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "maquina de leg extension con cable",
+    "nombre": "Máquina de leg extension con cable",
     "imagen": "Images/con maquina/pierna/maquina de leg extension con cable.jpg",
     "descripcion": "Ejercicio de tríceps",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -336,7 +336,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "maquina de leg press 45 grados",
+    "nombre": "Máquina de leg press 45 grados",
     "imagen": "Images/con maquina/pierna/maquina de leg press 45 grados.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -344,7 +344,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "maquina de press de pierna",
+    "nombre": "Máquina de press de pierna",
     "imagen": "Images/con maquina/pierna/maquina de press de pierna.jpg",
     "descripcion": "Ejercicio de cuerpo completo",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -352,7 +352,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "press de maquina de gluteos",
+    "nombre": "Press de maquina de gluteos",
     "imagen": "Images/con maquina/pierna/press de maquina de gluteos.jpg",
     "descripcion": "Ejercicio de abdomen",
     "video": "https://www.youtube.com/enlace_del_video",
@@ -360,7 +360,7 @@
     "musculo": "pierna"
   },
   {
-    "nombre": "elevaciones frontales con maquina",
+    "nombre": "Elevaciones frontales con maquina",
     "imagen": "Images/con maquina/hombro/elevaciones frontales con maquina.jpg",
     "descripcion": "Ejercicio de pecho y brazos",
     "video": "https://www.youtube.com/enlace_del_video",

@@ -33,7 +33,7 @@ form {
 }
 
 .input-button {
-    background-color: yellow;
+    background-color: #ffd000;
     color: black;
     font-size: 18px;
     font-weight: bold;
@@ -48,7 +48,7 @@ form {
 }
 
 .submit-button {
-    background-color: yellow;
+    background-color: #ffd000;
     border: none;
     padding: 10px;
     border-radius: 50%;
@@ -103,7 +103,7 @@ form {
 
 .crear-cuenta li a {
     text-decoration: none; /* Eliminar el subrayado del enlace */
-    color: #ffd000; /* Color del enlace */
+    color: #cea800; /* Color del enlace */
     font-weight: bold; /* Negrita para el enlace */
 }
 
