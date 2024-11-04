@@ -14,7 +14,6 @@ function cargarEjercicios() {
             mostrarEjerciciosPorGrupo(ejercicios, "nomaquina", "espalda");
             mostrarEjerciciosPorGrupo(ejercicios, "nomaquina", "pierna");
             mostrarEjerciciosPorGrupo(ejercicios, "nomaquina", "abdomen");
-
         }
     };
 
@@ -27,13 +26,8 @@ function cargarEjercicios() {
 
 // Función para mostrar ejercicios filtrados por tipo y grupo muscular
 function mostrarEjerciciosPorGrupo(ejercicios, tipo, musculo) {
-    // Filtrar ejercicios según el tipo y el grupo muscular y limitar a los primeros 5
     const ejerciciosFiltrados = ejercicios.filter(ej => ej.tipo === tipo && ej.musculo === musculo).slice(0, 5);
-
-    // Seleccionar el contenedor específico según el grupo muscular
     const contenedor = document.querySelector(`#${musculo} .grid-ejercicios`);
-
-    // Referencia al elemento 'ejercicio-add' para mantenerlo al final
     const ejercicioAdd = contenedor.querySelector(".ejercicio-add");
 
     ejerciciosFiltrados.forEach(ejercicio => {
@@ -53,19 +47,28 @@ function mostrarEjerciciosPorGrupo(ejercicios, tipo, musculo) {
         enlace.appendChild(img);
         li.appendChild(enlace);
 
-        // Insertar antes de 'ejercicio-add' para mantenerlo al final
         contenedor.insertBefore(li, ejercicioAdd);
     });
+
+    // Añadir evento al botón 'ejercicio-add' para redirigir con el grupo muscular
+    ejercicioAdd.addEventListener("click", function () {
+        guardarGrupoMuscularYRedirigir(musculo);
+    });
+}
+
+// Función para guardar el grupo muscular y redirigir
+function guardarGrupoMuscularYRedirigir(musculo) {
+    // Guardar el grupo muscular en localStorage
+    localStorage.setItem("grupoMuscularSeleccionado", musculo);
+
+    // Redirigir a la página de ejercicios específicos
+    window.location.href = "Ejercicios-especifico.html";
 }
 
 // Función para guardar el ejercicio seleccionado y redirigir
 function guardarEjercicioYRedirigir(ejercicio) {
-    // Guardar los datos del ejercicio en localStorage
     localStorage.setItem("ejercicioSeleccionado", JSON.stringify(ejercicio));
-
-    // Redirigir a la ventana emergente
     window.location.href = "Ventana_emergente.html";
 }
 
-// Ejecutar la función para cargar ejercicios al cargar la página
 document.addEventListener("DOMContentLoaded", cargarEjercicios);
