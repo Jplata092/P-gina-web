@@ -74,363 +74,364 @@
   {
     "nombre": "Pecho con cable",
     "imagen": "Images/con maquina/pecho/pecho con cable.jpg",
-    "descripcion": "Ejercicio de pecho y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Al utilizar cables, este ejercicio permite movimientos controlados y suaves, proporcionando un trabajo continuo en el pecho sin interrupciones en la tensión. Esto ayuda a mejorar la resistencia y el control muscular.",
+    "video": "https://www.youtube.com/watch?v=WNtBIde3Qks",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Pecho de pivote",
     "imagen": "Images/con maquina/pecho/pecho con maquina de pivote.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Gracias al sistema de pivote, esta máquina permite trabajar el pecho de manera efectiva, minimizando el estrés en las articulaciones y maximizando el trabajo muscular en cada repetición.",
+    "video": "https://www.youtube.com/watch?v=N7DjfGB8-xY",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Pecho polea alta",
     "imagen": "Images/con maquina/pecho/pecho polea alta.png",
-    "descripcion": "Ejercicio de espalda y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Con la polea en posición elevada, este ejercicio se concentra en la parte superior del pectoral. Esto ayuda a incrementar la fuerza y definición en esa región específica.",
+    "video": "https://www.youtube.com/watch?v=3hBloob8efo",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Pecho polea baja",
     "imagen": "Images/con maquina/pecho/pecho polea baja.png",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Aquí la polea se encuentra en una posición baja, lo cual permite trabajar la parte inferior del pectoral, proporcionando mayor enfoque y precisión en el desarrollo de esa zona.",
+    "video": "https://www.youtube.com/watch?v=6oqK95erRik",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Prensa de pecho con angulo",
     "imagen": "Images/con maquina/pecho/prensa de pecho con angulo.png",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "En esta máquina, el ángulo varía para enfocar el esfuerzo en distintas áreas del pectoral, logrando un fortalecimiento completo y mejor control en la amplitud de movimiento.",
+    "video": "https://www.youtube.com/watch?v=sNXrm1GjfH8",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Prensa de pecho con manijas",
     "imagen": "Images/con maquina/pecho/prensa de pecho con manijas.png",
-    "descripcion": "Ejercicio de tríceps",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Esta máquina permite ajustar la posición de las manijas para trabajar diversas áreas del pectoral, lo que facilita un enfoque personalizado en diferentes partes del pecho.",
+    "video": "https://www.youtube.com/watch?v=6OLPmEKOdoM",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Prensa de pecho declinada",
     "imagen": "Images/con maquina/pecho/prensa de pecho declinada.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Con esta máquina se trabaja directamente la parte inferior del pectoral. El ángulo de declinación ayuda a distribuir la carga hacia la zona inferior del pecho, aumentando la definición y resistencia en esa área.",
+    "video": "https://www.youtube.com/watch?v=lrkMoax-TSs",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Prensa de pecho horizontal",
     "imagen": "Images/con maquina/pecho/prensa de pecho horizontal.jpg",
-    "descripcion": "Ejercicio de cuerpo completo",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Diseñada para activar la parte media del pectoral, esta máquina proporciona un trabajo equilibrado en el pecho, permitiendo un fortalecimiento uniforme y estabilidad en movimientos de presión.",
+    "video": "https://www.youtube.com/watch?v=jlFl7WJ1TzI",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Prensa de pecho inclinada",
     "imagen": "Images/con maquina/pecho/prensa de pecho inclinada.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Esta máquina permite trabajar específicamente la parte superior del pectoral. Al ajustar la inclinación, se enfoca la carga en el pecho superior, lo que mejora la fuerza y el desarrollo en esa área particular.",
+    "video": "https://www.youtube.com/watch?v=vUMtItXfO8Y",
     "tipo": "maquina",
     "musculo": "pecho"
   },
   {
     "nombre": "Máquina curl con cable",
     "imagen": "Images/con maquina/brazo/maquina curl con cable.jpg",
-    "descripcion": "Ejercicio de pecho y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Utilizando cables, esta máquina permite realizar un movimiento controlado y continuo en el bíceps, mejorando la resistencia y control muscular en cada repetición.",
+    "video": "https://www.youtube.com/watch?v=7Jc4jHxax60",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina curl de biceps",
     "imagen": "Images/con maquina/brazo/maquina curl de biceps.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Este equipo se enfoca exclusivamente en trabajar el bíceps, fortaleciendo la parte frontal del brazo y mejorando la fuerza en movimientos de flexión.",
+    "video": "https://www.youtube.com/watch?v=DUTcx5B-ddk",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina curl inclinado",
     "imagen": "Images/con maquina/brazo/maquina curl inclinado.jpg",
-    "descripcion": "Ejercicio de espalda y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Diseñada para activar principalmente la parte superior del bíceps, permitiendo un desarrollo específico en la región superior del músculo.",
+    "video": "https://www.youtube.com/watch?v=m2VZFlcJsaM",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina de curl declinado",
     "imagen": "Images/con maquina/brazo/maquina de curl declinado.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "En este ejercicio, el enfoque se dirige hacia la parte inferior del bíceps, ayudando a mejorar la definición y resistencia en esa área particular.",
+    "video": "https://www.youtube.com/watch?v=1yw1Wlrmm1k",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina de extension con polea",
     "imagen": "Images/con maquina/brazo/maquina de extension con polea.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Con el uso de poleas, esta máquina permite trabajar el tríceps de forma suave y constante, favoreciendo un fortalecimiento uniforme y mayor precisión en los movimientos de extensión.",
+    "video": "https://www.youtube.com/watch?v=vpIQHsHU82Q",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina de extension declinada",
     "imagen": "Images/con maquina/brazo/maquina de extension declinada.jpg",
-    "descripcion": "Ejercicio de tríceps",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Diseñada para trabajar la parte inferior del tríceps, proporcionando mayor precisión en el desarrollo muscular de esa área.",
+    "video": "https://www.youtube.com/watch?v=vpIQHsHU82Q",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina de extension inclinada",
     "imagen": "Images/con maquina/brazo/maquina de extension inclinada.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Enfocada en la parte superior del tríceps, esta máquina permite un trabajo específico en la región superior, ayudando a mejorar la fuerza y la definición muscular en esa zona.",
+    "video": "https://www.youtube.com/watch?v=h29xqUecgH0",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina de press de brazos",
     "imagen": "Images/con maquina/brazo/maquina de press de brazos.jpg",
-    "descripcion": "Ejercicio de cuerpo completo",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Esta máquina permite trabajar de manera simultánea tanto el bíceps como el tríceps, logrando un equilibrio en la fuerza y resistencia de ambos grupos musculares.",
+    "video": "https://www.youtube.com/watch?v=ADqg_IoKhME",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina extension de triceps",
     "imagen": "Images/con maquina/brazo/maquina extension de triceps.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Esta máquina permite trabajar el tríceps de forma concentrada, fortaleciendo la parte posterior del brazo y mejorando el empuje en movimientos de extensión.",
+    "video": "https://www.youtube.com/watch?v=_JoblP7fggo",
     "tipo": "maquina",
     "musculo": "brazo"
   },
   {
     "nombre": "Máquina de deadlift con cable",
     "imagen": "Images/con maquina/espalda/maquina de deadlift con cable.jpg",
-    "descripcion": "Ejercicio de pecho y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Enfocada en los músculos erectores de la columna y glúteos, esta máquina ayuda a fortalecer la zona lumbar y los músculos de la cadera, mejorando la estabilidad y fuerza en la región inferior de la espalda.",
+    "video": "https://www.youtube.com/watch?v=le48ZzlrQL8",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de hyperextension",
     "imagen": "Images/con maquina/espalda/maquina de hyperextension.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Este ejercicio se centra en los músculos erectores de la columna y glúteos, ayudando a mejorar la estabilidad y fuerza en la zona lumbar y en la parte posterior de las piernas.",
+    "video": "https://www.youtube.com/watch?v=OeJfUNkgq0I",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de lat pull",
     "imagen": "Images/con maquina/espalda/maquina de lat pull.jpg",
-    "descripcion": "Ejercicio de espalda y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Este equipo trabaja de forma específica los músculos latissimus dorsi, fortaleciendo la zona media de la espalda y mejorando la resistencia en movimientos de tracción descendente.",
+    "video": "https://www.youtube.com/watch?v=EFbWLOBrrM8",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de low row",
     "imagen": "Images/con maquina/espalda/maquina de low row.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Este equipo permite trabajar los músculos latissimus dorsi y los erectores de la columna, proporcionando un fortalecimiento completo de la parte baja y media de la espalda.",
+    "video": "https://www.youtube.com/watch?v=ue8MXKXdOVw",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de press de espalda",
     "imagen": "Images/con maquina/espalda/maquina de press de espalda.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Diseñada para trabajar toda la espalda, esta máquina activa los músculos trapecios, romboides y latissimus dorsi, ofreciendo un fortalecimiento equilibrado en toda la zona dorsal.",
+    "video": "https://www.youtube.com/watch?v=72q0tKij5uU",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de pull con polea",
     "imagen": "Images/con maquina/espalda/maquina de pull con polea.jpg",
-    "descripcion": "Ejercicio de tríceps",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Gracias al uso de poleas, este equipo permite trabajar la espalda de forma controlada y suave, proporcionando un fortalecimiento completo sin impacto fuerte en las articulaciones.",
+    "video": "https://www.youtube.com/watch?v=9YQ1YXKko8s",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de pull lateral",
     "imagen": "Images/con maquina/espalda/maquina de pull lateral.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Dirigida a los músculos deltoides y trapecios, esta máquina permite trabajar los músculos que ayudan en la amplitud y control de movimientos laterales de la espalda y hombros.",
+    "video": "https://www.youtube.com/watch?v=EFbWLOBrrM8&t=1s",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de remo vertical",
     "imagen": "Images/con maquina/espalda/maquina de remo vertical.jpg",
-    "descripcion": "Ejercicio de cuerpo completo",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Este equipo se enfoca en trabajar los músculos trapecios y romboides, fortaleciendo la parte superior de la espalda y mejorando la postura y estabilidad en la región alta de la columna.",
+    "video": "https://www.youtube.com/watch?v=FOusO8JMU3Q",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de row inclinado",
     "imagen": "Images/con maquina/espalda/maquina de row inclinado.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Diseñada para activar los músculos latissimus dorsi y trapecios, esta máquina fortalece la parte media de la espalda, mejorando el control y la estabilidad en movimientos de tracción.",
+    "video": "https://www.youtube.com/watch?v=LBVVtd2eS7w",
     "tipo": "maquina",
     "musculo": "espalda"
   },
   {
     "nombre": "Máquina de abduccion",
     "imagen": "Images/con maquina/pierna/maquina de abduccion.jpg",
-    "descripcion": "Ejercicio de pecho y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Este equipo trabaja los músculos aductores y abductores de los muslos, fortaleciendo los músculos laterales e internos de las piernas y mejorando la estabilidad de la cadera en movimientos de apertura y cierre de las piernas.",
+    "video": "https://www.youtube.com/watch?v=4CaBBmSWbwM",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
     "nombre": "Máquina de curl de piernas",
     "imagen": "Images/con maquina/pierna/maquina de curl de piernas.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Este equipo trabaja específicamente los músculos isquiotibiales, fortaleciendo la parte posterior del muslo y mejorando el control en movimientos de flexión de la pierna.",
+    "video": "https://www.youtube.com/watch?v=kmtn5RJkvVE",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
     "nombre": "Máquina de curl declinado",
     "imagen": "Images/con maquina/pierna/maquina de curl declinado.jpg",
-    "descripcion": "Ejercicio de espalda y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Enfocada en los isquiotibiales, esta máquina permite un trabajo específico en la parte posterior del muslo, favoreciendo la resistencia y estabilidad en movimientos de tracción.",
+    "video": "https://www.youtube.com/watch?v=6l4aw0eGbbU",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
     "nombre": "Máquina de extension de pierna",
     "imagen": "Images/con maquina/pierna/maquina de extension de pierna.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Diseñada para enfocar directamente en los cuádriceps, esta máquina ayuda a mejorar la fuerza y definición en la parte frontal del muslo.",
+    "video": "https://www.youtube.com/watch?v=DI34ngDC8FU",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
     "nombre": "Máquina de hip thrust",
     "imagen": "Images/con maquina/pierna/maquina de hip thrust.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Diseñada para enfocarse en los glúteos y la zona lumbar, este ejercicio ayuda a mejorar la estabilidad de la cadera y a fortalecer la parte baja de la espalda.",
+    "video": "https://www.youtube.com/watch?v=gdUC0EFGWfQ",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
     "nombre": "Máquina de leg extension con cable",
     "imagen": "Images/con maquina/pierna/maquina de leg extension con cable.jpg",
-    "descripcion": "Ejercicio de tríceps",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Gracias al uso de cables, esta máquina permite trabajar los cuádriceps con movimientos controlados y continuos, ayudando a mejorar la resistencia y la precisión en el entrenamiento.",
+    "video": "https://www.youtube.com/watch?v=tjliQnQ44LY",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
     "nombre": "Máquina de leg press 45 grados",
     "imagen": "Images/con maquina/pierna/maquina de leg press 45 grados.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Al trabajar en un ángulo de 45°, esta máquina permite fortalecer tanto los cuádriceps como los isquiotibiales, ofreciendo un desarrollo equilibrado en la parte superior e inferior de las piernas.",
+    "video": "https://www.youtube.com/watch?v=xvCynwyNoP4",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
     "nombre": "Máquina de press de pierna",
     "imagen": "Images/con maquina/pierna/maquina de press de pierna.jpg",
-    "descripcion": "Ejercicio de cuerpo completo",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Esta máquina permite trabajar los músculos cuádriceps, fortaleciendo la parte frontal del muslo y mejorando la resistencia en movimientos de empuje con las piernas.",
+    "video": "https://www.youtube.com/watch?v=q-vuxw77wQc",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
     "nombre": "Press de maquina de gluteos",
     "imagen": "Images/con maquina/pierna/press de maquina de gluteos.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "descripcion": "Este equipo está diseñado para trabajar los músculos glúteos, proporcionando un fortalecimiento efectivo en la parte posterior de las piernas y en la cadera.",
+    "video": "https://www.youtube.com/watch?v=86XUTkFpWUA",
     "tipo": "maquina",
     "musculo": "pierna"
   },
   {
-    "nombre": "Elevaciones frontales con maquina",
-    "imagen": "Images/con maquina/hombro/elevaciones frontales con maquina.jpg",
-    "descripcion": "Ejercicio de pecho y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de abdominal con manija",
+    "imagen": "Images/con maquina/abdomen/maquina de abdominal con manija.jpg",
+    "descripcion": "Este equipo permite ajustar la posición de la manija, lo que facilita el enfoque en diferentes partes del abdomen y proporciona un trabajo personalizado de acuerdo con las necesidades del core.",
+    "video": "https://www.youtube.com/watch?v=VtvvVdAQkq8",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
   {
-    "nombre": "elevaciones laterales con maquina",
-    "imagen": "Images/con maquina/hombro/elevaciones laterales con maquina.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de abdominal con polea",
+    "imagen": "Images/con maquina/abdomen/maquina de abdominal con polea.jpg",
+    "descripcion": "Con el uso de poleas, esta máquina permite trabajar todo el abdomen con movimientos controlados y suaves, proporcionando un fortalecimiento equilibrado de la zona central del cuerpo.",
+    "video": "https://www.youtube.com/watch?v=W6zFHkMp3_U",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
   {
-    "nombre": "elevaciones laterales con polea",
-    "imagen": "Images/con maquina/hombro/elevaciones laterales con polea.jpg",
-    "descripcion": "Ejercicio de espalda y brazos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de crunch declinado",
+    "imagen": "Images/con maquina/abdomen/maquina de crunch declinado.jpg",
+    "descripcion": "Este equipo enfoca en la parte inferior del recto abdominal, ayudando a fortalecer y definir la zona inferior del abdomen.",
+    "video": "https://www.youtube.com/watch?v=SJub6eDszec",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
   {
-    "nombre": "elevaciones posteriores con maquina",
-    "imagen": "Images/con maquina/hombro/elevaciones posteriores con maquina.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de crunch",
+    "imagen": "Images/con maquina/abdomen/maquina de crunch.jpg",
+    "descripcion": "Esta máquina permite trabajar el músculo recto abdominal, fortaleciendo la parte frontal del abdomen y mejorando la resistencia en movimientos de flexión del torso.",
+    "video": "https://www.youtube.com/watch?v=GW-Zj9gDkuA",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
   {
-    "nombre": "maquina de abduccion",
-    "imagen": "Images/con maquina/hombro/maquina de abduccion.jpg",
-    "descripcion": "Ejercicio de piernas y glúteos",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de plank con cable",
+    "imagen": "Images/con maquina/abdomen/maquina de plank con cable.jpg",
+    "descripcion": "Utilizando cables, esta máquina permite trabajar el músculo transverso abdominal, fortaleciendo la estabilidad y control del core en movimientos de tensión estática.",
+    "video": "https://www.youtube.com/watch?v=o_CxFP4FJhA",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
   {
-    "nombre": "maquina de rotacion con manija",
-    "imagen": "Images/con maquina/hombro/maquina de rotacion con manija.jpg",
-    "descripcion": "Ejercicio de tríceps",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de rotacion abdominal",
+    "imagen": "Images/con maquina/abdomen/maquina de rotacion abdominal.jpg",
+    "descripcion": "Este equipo trabaja los músculos oblicuos, fortaleciendo la parte lateral del abdomen y mejorando la resistencia y control en movimientos de rotación del torso.",
+    "video": "https://www.youtube.com/watch?v=jwmVVU0UKWg",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
   {
-    "nombre": "prensa de hombros con maquina",
-    "imagen": "Images/con maquina/hombro/prensa de hombros con maquina.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de Russian twist",
+    "imagen": "Images/con maquina/abdomen/maquina de Russian twist.jpg",
+    "descripcion": "Diseñada para trabajar tanto los oblicuos como el recto abdominal, esta máquina ayuda a mejorar la fuerza en el torso y el control en movimientos de torsión.",
+    "video": "https://www.youtube.com/watch?v=XkaabzqFPtA",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
   {
-    "nombre": "prensa de hombros en angulo con maquina",
-    "imagen": "Images/con maquina/hombro/prensa de hombros en angulo con maquina.jpg",
-    "descripcion": "Ejercicio de cuerpo completo",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de side crunch",
+    "imagen": "Images/con maquina/abdomen/maquina de side crunch.jpg",
+    "descripcion": "Esta máquina está diseñada para activar los oblicuos laterales, ayudando a fortalecer y definir la musculatura lateral del abdomen.",
+    "video": "https://www.youtube.com/watch?v=4CFT-v2RZ68",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
   {
-    "nombre": "rotaciones de hombro de cable",
-    "imagen": "Images/con maquina/hombro/rotaciones de hombro con maquina de cable.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Máquina de abdomen inclinado",
+    "imagen": "Images/con maquina/abdomen/maquina de abdomen inclinado.jpg",
+    "descripcion": "Diseñada para enfocar en la parte superior del recto abdominal, esta máquina ayuda a mejorar la fuerza y definición en la zona superior del abdomen.",
+    "video": "https://www.youtube.com/watch?v=SJub6eDszec",
     "tipo": "maquina",
     "musculo": "abdomen"
   },
+
 
   {
     "nombre": "rotaciones de hombro de cable",
