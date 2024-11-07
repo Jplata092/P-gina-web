@@ -7,6 +7,54 @@
     <link rel="stylesheet" href="CSS/Style-header.css">
     <link rel="stylesheet" href="CSS/Style-perfil.css">
     <link rel="stylesheet" href="CSS/Style-footer.css">
+    <style>
+        /* Rutina de ejercicios */
+        .rutina-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+            background-color: #e7e7e7;
+            margin-top: 20px;
+        }
+
+        #ejercicios-lista {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        #ejercicios-lista li {
+            background-color: #ffd000;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            margin: 10px 0;
+            width: 250px;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #agregar-ejercicio {
+            background-color: #ffd000;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            padding: 10px;
+            margin: 10px 0;
+            width: 250px;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
 </head>
 
 <header>
@@ -52,7 +100,64 @@
             <input type="email" placeholder="Correo electrónico" class="input-button">
         </form>
     </div>
-</body>
+
+    <!-- Rutina de ejercicios -->
+    <div class="rutina-container">
+        <h2>Mi Rutina</h2>
+        <ul id="ejercicios-lista">
+            <!-- Los ejercicios se agregarán aquí dinámicamente -->
+        </ul>
+        <button id="agregar-ejercicio">Agregar Ejercicio</button>
+    </div>
+
+    <script>
+        // JavaScript para mostrar/ocultar el menú móvil y el overlay
+        document.getElementById("menu-icon").addEventListener("click", function (event) {
+            event.preventDefault();
+            const mobileMenu = document.getElementById("mobile-menu");
+            const overlay = document.getElementById("overlay");
+            mobileMenu.classList.toggle("active");
+        overlay.classList.toggle("active");
+    });
+
+    // Cerrar el menú si se hace clic en el overlay
+    document.getElementById("overlay").addEventListener("click", function () {
+        const mobileMenu = document.getElementById("mobile-menu");
+        const overlay = document.getElementById("overlay");
+        mobileMenu.classList.remove("active");
+        overlay.classList.remove("active");
+    });
+
+    // Obtener elementos del DOM
+    const ejerciciosLista = document.getElementById('ejercicios-lista');
+    const agregarEjercicioBtn = document.getElementById('agregar-ejercicio');
+
+    // Array para almacenar los ejercicios
+    let ejercicios = [];
+
+    // Función para agregar ejercicio
+    function agregarEjercicio() {
+        const ejercicio = prompt('Ingrese el nombre del ejercicio:');
+        if (ejercicio !== null && ejercicio !== '') {
+            ejercicios.push(ejercicio);
+            actualizarLista();
+        }
+    }
+
+    // Función para actualizar la lista de ejercicios
+    function actualizarLista() {
+        ejerciciosLista.innerHTML = '';
+        ejercicios.forEach((ejercicio, index) => {
+            const li = document.createElement('li');
+            li.textContent = ejercicio;
+            li.dataset.index = index;
+            ejerciciosLista.appendChild(li);
+        });
+    }
+
+    // Agregar evento al botón para agregar ejercicio
+    agregarEjercicioBtn.addEventListener('click', agregarEjercicio);
+</script>
 
 <footer>
     <div class="container-footer">
@@ -78,25 +183,6 @@
     </div>
 </footer>
 
-<script>
-    // JavaScript para mostrar/ocultar el menú móvil y el overlay
-    document.getElementById("menu-icon").addEventListener("click", function (event) {
-        event.preventDefault();
-        const mobileMenu = document.getElementById("mobile-menu");
-        const overlay = document.getElementById("overlay");
-        mobileMenu.classList.toggle("active");
-        overlay.classList.toggle("active");
-    });
-
-    // Cerrar el menú si se hace clic en el overlay
-    document.getElementById("overlay").addEventListener("click", function () {
-        const mobileMenu = document.getElementById("mobile-menu");
-        const overlay = document.getElementById("overlay");
-        mobileMenu.classList.remove("active");
-        overlay.classList.remove("active");
-    });
-</script>
-
 <!-- Modal -->
 <div id="modalMapa" class="modal">
     <div class="modal-content">
@@ -106,5 +192,5 @@
 </div>
 
 <script src="Mapa.js"></script>
-
+</body>
 </html>
