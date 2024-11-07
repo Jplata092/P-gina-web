@@ -433,12 +433,443 @@
   },
 
 
+
+
+
+
+
   {
-    "nombre": "rotaciones de hombro de cable",
-    "imagen": "Images/con maquina/hombro/rotaciones de hombro con maquina de cable.jpg",
-    "descripcion": "Ejercicio de abdomen",
-    "video": "https://www.youtube.com/enlace_del_video",
+    "nombre": "Brazos en circulos",
+    "imagen": "Images/sin maquina/hombro/Brazos en círculos.jpg",
+    "descripcion": "Brazos en círculos es un ejercicio simple pero efectivo para mejorar la movilidad y flexibilidad de los hombros. Se puede realizar en cualquier momento y lugar, sin necesidad de equipo o accesorios.",
+    "video": "https://eresfitness.com/wp-content/uploads/39961205-Circles-Arm-male_Shoulders-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Clean and jerk a una mano con pesa rusa",
+    "imagen": "Images/sin maquina/hombro/Clean and jerk a una mano con pesa rusa.jpg",
+    "descripcion": "El Clean and Jerk a una mano con pesa rusa es un ejercicio sumamente desafiante que trabaja varios grupos musculares y mejora la coordinación y la estabilidad. Este movimiento olímpico puede parecer intimidante al principio, pero con la técnica adecuada y la práctica suficiente, puede ser una adición valiosa a cualquier programa de entrenamiento.",
+    "video": "https://eresfitness.com/wp-content/uploads/05371205-Kettlebell-One-Arm-Clean-and-Jerk_Shoulders-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Clean and Press con mancuernas",
+    "imagen": "Images/sin maquina/hombro/Clean and Press con mancuernas.jpg",
+    "descripcion": "El Clean and Press con mancuernas es un ejercicio compuesto que trabaja todo el cuerpo y se enfoca en la fuerza y la explosividad. En este ejercicio, levantarás las mancuernas desde el suelo y las empujarás hacia arriba sobre tu cabeza. Es ideal para aquellos que desean mejorar su fuerza y condición física en general.",
+    "video": "https://eresfitness.com/wp-content/uploads/34001205-Dumbbell-Clean-and-Press-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Elevaciones laterales con mancuernas",
+    "imagen": "Images/sin maquina/hombro/Elevaciones laterales con mancuernas.jpg",
+    "descripcion": "Las elevaciones laterales de brazos con mancuernas es uno de los ejercicios más frecuentes en todos y cada uno de los gimnasios para trabajar el deltoides lateral. Asimismo, se ven implicados el trapecio y el deltoides anterior, esto es, la parte delantera de los dos músculos. Solo precisarás dos mancuernas del peso que mejor se adapte a ti para efectuar este entrenamiento en casa o bien en el gimnasio.",
+    "video": "https://eresfitness.com/wp-content/uploads/2019/09/03341205-Dumbbell-Lateral-Raise_shoulder-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Elevación frontal con mancuernas",
+    "imagen": "Images/sin maquina/hombro/Elevación frontal con mancuernas.jpg",
+    "descripcion": "La elevación frontal con mancuernas es un ejercicio ideal para trabajar la parte de los trapecios, a la vez que fortalecemos diversos grupos musculares de los brazos, como la región de los hombros; incluso, podrás moldear la región del pectoral mayor superior.",
+    "video": "https://eresfitness.com/wp-content/uploads/2019/09/03101205-Dumbbell-Front-Raise_Shoulders-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Pike Push-Up",
+    "imagen": "Images/sin maquina/hombro/Pike Push-Up.jpg",
+    "descripcion": "Si estás buscando un ejercicio efectivo para fortalecer tus hombros y tríceps sin necesidad de equipo, el pike push up es perfecto para ti. Este movimiento desafiante es ideal para aquellos que quieren aumentar su fuerza y definición muscular en la parte superior del cuerpo. Además, puedes hacerlo desde la comodidad de tu hogar o en cualquier lugar que prefieras.",
+    "video": "https://eresfitness.com/wp-content/uploads/29211205-Pike-Push-up_Chest-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Press Arnold con mancuernas",
+    "imagen": "Images/sin maquina/hombro/Press Arnold con mancuernas.jpg",
+    "descripcion": "El press arnold con mancuernas es un ejercicio efectivo para fortalecer los hombros y mejorar la estabilidad del core. Además, puede ayudar a mejorar la postura y prevenir lesiones en los hombros.",
+    "video": "https://eresfitness.com/wp-content/uploads/21371205-Dumbbell-Arnold-Press_Shoulders-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Rotacion externa de hombro con mancuerna",
+    "imagen": "Images/sin maquina/hombro/Rotacion enrtera de hombro con mancuerna.jpg",
+    "descripcion": "La rotación externa de hombro con mancuerna es un ejercicio eficaz para calentar los músculos del hombro y mejorar la movilidad de esta articulación. Además, es un ejercicio simple que se puede hacer en casa o en el gimnasio con una mancuerna.",
+    "video": "https://eresfitness.com/wp-content/uploads/36841205-Dumbbell-External-Rotation_Back-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Swing con mancuerna",
+    "imagen": "Images/sin maquina/hombro/Swing con mancuerna.jpg",
+    "descripcion": "El ejercicio «Dumbbell Swing» es una excelente manera de mejorar la fuerza y la potencia en todo el cuerpo, especialmente en la parte posterior. Es un ejercicio compuesto que involucra los músculos de las piernas, los glúteos, la espalda, los hombros y los brazos.",
+    "video": "https://eresfitness.com/wp-content/uploads/33681205-Dumbbell-Swing_Hips-flat_1.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "hombro"
+  },
+  {
+    "nombre": "Close Grip Floor Press",
+    "imagen": "Images/sin maquina/pecho/Close Grip Floor Press.jpg",
+    "descripcion": "Variante del press de pecho, realizado acostado en el suelo con las manos juntas. Trabaja los pectorales y los tríceps, enfocándose en la parte interior.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Decline Key Press",
+    "imagen": "Images/sin maquina/pecho/Decline Key Press.jpg",
+    "descripcion": "Ejercicio que trabaja la parte inferior del pectoral. Se realiza en una superficie inclinada hacia abajo, con mancuernas o pesas.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Deficit push up",
+    "imagen": "Images/sin maquina/pecho/Deficit push up.jpg",
+    "descripcion": "Variante de la flexión clásica, realizada con los pies elevados o en una superficie inferior, aumentando la dificultad y el trabajo para los pectorales.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Dumbell Floor Press",
+    "imagen": "Images/sin maquina/pecho/Dumbell Floor Press.jpg",
+    "descripcion": "Variante del press de pecho, realizado acostado en el suelo con mancuernas. Trabaja los pectorales y los tríceps.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Floor dumbell fly",
+    "imagen": "Images/sin maquina/pecho/floor dumbell fly.jpg",
+    "descripcion": "Ejercicio que trabaja los pectorales, especialmente la parte interior. Se realiza acostado en el suelo con mancuernas, moviendo los brazos en forma de mariposa.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Fly press",
+    "imagen": "Images/sin maquina/pecho/Fly press.jpg",
+    "descripcion": "Ejercicio que trabaja los pectorales, especialmente la parte interior. Se realiza con mancuernas o pesas, manteniendo los brazos estirados y uniendo las manos en la parte superior.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Incline Dumbbell Squeeze Press",
+    "imagen": "Images/sin maquina/pecho/Incline Dumbbell Squeeze Press.jpg",
+    "descripcion": "Ejercicio que trabaja la parte superior del pectoral, enfocándose en la contracción y separación de los músculos.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Pullover into Press",
+    "imagen": "Images/sin maquina/pecho/Pullover into Press.jpg",
+    "descripcion": "Ejercicio que combina un pullover (movimiento de extensión de los brazos hacia atrás) con un press de pecho. Trabaja los pectorales, los tríceps y los músculos dorsales.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Staggered Push Up",
+    "imagen": "Images/sin maquina/pecho/Staggered Push Up.jpg",
+    "descripcion": "Variante de la flexión clásica, realizada con una mano adelante y la otra atrás, alternando la posición en cada repetición. Trabaja los pectorales, los tríceps y los músculos del core.",
+    "video": "https://www.youtube.com/watch?v=tKijsY8sRmo",
+    "tipo": "nomaquina",
+    "musculo": "pecho"
+  },
+  {
+    "nombre": "Caminata pasos largos",
+    "imagen": "Images/sin maquina/pierna/Caminata pasos largos.jpg",
+    "descripcion": "Ejercicio que trabaja los glúteos, cuádriceps e isquiotibiales. Realízalo caminando con pasos largos.",
+    "video": "https://www.youtube.com/watch?v=-92qwf-XgjY",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Extension de pierna con mancuerna",
+    "imagen": "Images/sin maquina/pierna/Extension de pierna con mancuerna.jpg",
+    "descripcion": "Ejercicio que trabaja los cuádriceps. Realízalo sentado en el suelo con mancuernas.",
+    "video": "https://www.youtube.com/watch?v=_DKsFdWf0ns",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Flexiones de pierna con mancuerna",
+    "imagen": "Images/sin maquina/pierna/flexiones de  pierna con mancuerna.jpg",
+    "descripcion": "Trabaja los isquiotibiales. Realízalo sentado en el suelo con mancuernas.",
+    "video": "https://www.youtube.com/watch?v=PRNeL5-Y79M",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Lunges",
+    "imagen": "Images/sin maquina/pierna/Lunges.jpg",
+    "descripcion": "Ejercicio que trabaja los cuádriceps, isquiotibiales y glúteos. Realízalo con un pie adelante y el otro atrás.",
+    "video": "https://www.youtube.com/watch?v=oyLAcXHZTOc",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Peso muerto una pierna",
+    "imagen": "Images/sin maquina/pierna/Peso muerto una pierna.jpg",
+    "descripcion": "los glúteos, isquiotibiales y espalda. Realízalo con una pierna levantada.",
+    "video": "https://eresfitness.com/wp-content/uploads/17571205-Dumbbell-Single-Leg-Deadlift_Hips-flat_1.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Peso muerto",
+    "imagen": "Images/sin maquina/pierna/Peso muerto.jpg",
+    "descripcion": "Trabaja los glúteos, isquiotibiales y espalda. Realízalo con pies separados y levanta un peso o barra con las manos.",
+    "video": "https://www.youtube.com/watch?v=mDSjJB1vj4E",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Saltos laterales",
+    "imagen": "Images/sin maquina/pierna/Saltos laterales.jpg",
+    "descripcion": "Ejercicio que trabaja los glúteos y piernas. Realízalo saltando lateralmente.",
+    "video": "https://www.youtube.com/watch?v=evL1CqCYw2c",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Sentadillas",
+    "imagen": "Images/sin maquina/pierna/Sentadillas.jpg",
+    "descripcion": "Ejercicio que trabaja los glúteos y piernas. Realízalo saltando lateralmente.",
+    "video": "https://www.youtube.com/watch?v=BjixzWEw4EY",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Subir y bajar escaleras",
+    "imagen": "Images/sin maquina/pierna/Subir y bajar escaleras.jpg",
+    "descripcion": "Trabaja los glúteos, cuádriceps e isquiotibiales. Realízalo subiendo y bajando escaleras.",
+    "video": "https://www.youtube.com/watch?v=ha9nD4Q5TXY",
+    "tipo": "nomaquina",
+    "musculo": "pierna"
+  },
+  {
+    "nombre": "Criss Cross Legs",
+    "imagen": "Images/sin maquina/abdomen/Criss Cross Legs.jpg",
+    "descripcion": "El ejercicio Criss Cross Legs es una gran opción para trabajar el abdomen y fortalecer la zona central del cuerpo. Este ejercicio es especialmente bueno para las personas que quieren trabajar los músculos abdominales de manera efectiva y desafiar su equilibrio al mismo tiempo. En este ejercicio, el movimiento de las piernas es similar al de las tijeras, lo que hace que el cuerpo se contraiga y se relaje en cada repetición.",
+    "video": "https://eresfitness.com/wp-content/uploads/40201205-Criss-Cross-Leg-Raises_Hip-flat_1.mp4?_=1",
     "tipo": "nomaquina",
     "musculo": "abdomen"
+  },
+  {
+    "nombre": "Dead Bug",
+    "imagen": "Images/sin maquina/abdomen/Dead Bug.jpg",
+    "descripcion": "El Dead Bug es un ejercicio eficaz para fortalecer los músculos abdominales y mejorar la estabilidad del núcleo. Este ejercicio se puede hacer en cualquier lugar sin equipo especial y es excelente para personas de todos los niveles de condición física.",
+    "video": "https://eresfitness.com/wp-content/uploads/02761205-Dead-Bug_Waist-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "abdomen"
+  },
+  {
+    "nombre": "Giro Ruso (sin equipo)",
+    "imagen": "Images/sin maquina/abdomen/Giro Ruso (sin equipo).jpg",
+    "descripcion": "Si estás buscando un ejercicio efectivo para fortalecer tu core y mejorar la postura, el Giro Ruso puede ser justo lo que necesitas. Este ejercicio, que se puede hacer en casa o en el gimnasio, trabaja los músculos abdominales, los oblicuos y la espalda baja. Además, ayuda a mejorar la flexibilidad y el equilibrio.",
+    "video": "https://eresfitness.com/wp-content/uploads/06871205-Russian-Twist_waist-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "abdomen"
+  },
+  {
+    "nombre": "Hollow Hold",
+    "imagen": "Images/sin maquina/abdomen/Hollow Hold.jpg",
+    "descripcion": "Si buscas un ejercicio abdominal desafiante y efectivo, el Hollow Hold es una excelente opción. Este ejercicio no solo fortalece los músculos abdominales, sino que también mejora tu estabilidad y postura. ¡Así que prepárate para sentir el ardor en tu abdomen y ver resultados increíbles!",
+    "video": "https://eresfitness.com/wp-content/uploads/06871205-Russian-Twist_waist-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "abdomen"
+  },
+  {
+    "nombre": "Inchworm",
+    "imagen": "Images/sin maquina/abdomen/Inchworm.jpg",
+    "descripcion": "Si estás buscando un ejercicio de cuerpo completo que pueda hacer en cualquier lugar, el Inchworm es una excelente opción. Este ejercicio no solo mejora la flexibilidad, sino que también fortalece los músculos de los brazos, la espalda, los glúteos y las piernas. ¡Prepárate para sentir una quemazón en todo tu cuerpo y obtener resultados sorprendentes!",
+    "video": "https://eresfitness.com/wp-content/uploads/14711205-Inchworm_Waist-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "abdomen"
+  },
+  {
+    "nombre": "Plancha de rodillas",
+    "imagen": "Images/sin maquina/abdomen/Plancha de rodillas.jpg",
+    "descripcion": "La plancha de rodillas es un ejercicio de fortalecimiento de core que se puede realizar en cualquier lugar y sin necesidad de equipo adicional. Esta variante de la plancha tradicional es perfecta para principiantes que desean mejorar su fuerza abdominal y lumbar, así como su postura. Además, es un ejercicio de bajo impacto que puede ayudar a prevenir lesiones y mejorar el equilibrio.",
+    "video": "https://eresfitness.com/wp-content/uploads/32381205-Kneeling-plank-male_Waist-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "abdomen"
+  },
+  {
+    "nombre": "Plancha lateral",
+    "imagen": "Images/sin maquina/abdomen/Plancha lateral.jpg",
+    "descripcion": "La plancha lateral es un excelente ejercicio para trabajar los músculos del abdomen, los oblicuos y la espalda. Además de ser efectivo, es un ejercicio muy versátil que se puede hacer en cualquier lugar y sin necesidad de equipamiento.",
+    "video": "https://eresfitness.com/wp-content/uploads/07151205-Side-Plank-m_Waist-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "abdomen"
+  },
+  {
+    "nombre": "Rueda abdominal de pie",
+    "imagen": "Images/sin maquina/abdomen/Rueda abdominal de pie.jpg",
+    "descripcion": "Si deseas fortalecer tus abdominales y mejorar la estabilidad de tu núcleo, la rueda abdominal de pie es un excelente ejercicio para ti. Este ejercicio es desafiante y efectivo, y puede ser realizado en cualquier lugar. A través de este movimiento, podrás trabajar tus abdominales de manera intensa y mejorar tu postura y equilibrio.",
+    "video": "https://eresfitness.com/wp-content/uploads/07961205-Standing-Wheel-Rollout_Waist-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "abdomen"
+  },
+  {
+    "nombre": "Rueda abdominal de rodillas",
+    "imagen": "Images/sin maquina/abdomen/Rueda abdominal de rodillas.jpg",
+    "descripcion": "Si estás buscando un ejercicio desafiante y efectivo para fortalecer tus abdominales, la rueda abdominal de rodillas es una excelente opción. Este ejercicio se enfoca en trabajar los músculos de la parte media del cuerpo, mientras mejora la estabilidad del núcleo y la postura. Además, es fácil de realizar y se puede hacer en cualquier lugar.",
+    "video": "https://eresfitness.com/wp-content/uploads/08571205-Wheel-Rollout_Waist-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "abdomen"
+  },
+  {
+    "nombre": "Curl concentrado con mancuerna (agarre supino)",
+    "imagen": "Images/sin maquina/brazos/Curl concentrado con mancuerna (agarre supino).jpg",
+    "descripcion": "El curl concentrado es un ejercicio muy frecuente en la iniciación al mundo fitness, estando presente en la mayoría de las rutinas de musculación que solicitan en frecuente trabajo de los brazos, específicamente en los bíceps.",
+    "video": "https://eresfitness.com/wp-content/uploads/2019/05/02971205-Dumbbell-Concentration-Curl_Upper-Arms-FIX-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Curl de bíceps",
+    "imagen": "Images/sin maquina/brazos/Curl de bíceps.jpg",
+    "descripcion": "El curl de bíceps es uno de esos ejercicios que no debe ni puede faltar en tu rutina de ejercicios si lo que buscas y deseas es obtener un aumento de bíceps considerable. Hoy aprenderás la técnica correcta y los músculos que se fortalecen según el agarre o el peso que estés utilizando (barra o mancuerna).",
+    "video": "https://eresfitness.com/wp-content/uploads/04161205-Dumbbell-Standing-Biceps-Curl_Upper-Arms-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Curl de bíceps",
+    "imagen": "Images/sin maquina/brazos/Curl de bíceps.jpg",
+    "descripcion": "El curl de bíceps es uno de esos ejercicios que no debe ni puede faltar en tu rutina de ejercicios si lo que buscas y deseas es obtener un aumento de bíceps considerable. Hoy aprenderás la técnica correcta y los músculos que se fortalecen según el agarre o el peso que estés utilizando (barra o mancuerna).",
+    "video": "https://eresfitness.com/wp-content/uploads/04161205-Dumbbell-Standing-Biceps-Curl_Upper-Arms-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Curl martillo con mancuernas",
+    "imagen": "Images/sin maquina/brazos/Curl martillo con mancuernas.jpg",
+    "descripcion": "Este ejercicio además de permitirnos trabajar el bíceps, permite que otros músculos de la periferia y cercanos al mismo puedan ser trabajados, logrando aumentar el volumen y la forma.",
+    "video": "https://eresfitness.com/wp-content/uploads/2019/05/03131205-Dumbbell-Hammer-Curl_Forearms-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Curl Zottman con mancuernas",
+    "imagen": "Images/sin maquina/brazos/Curl Zottman con mancuernas.jpg",
+    "descripcion": "El curl de Zottman con mancuernas se denomina así en honor al hombre que lo ideo. En realidad se trata de una combinación de movimientos de curl tradicional, que se mezcla con el movimiento típico del curl invertido; por lo que es uno de los mejores ejercicios que podemos incluir en nuestra rutina a la hora de trabajar los brazos, sobre todo la región del bíceps y tríceps.",
+    "video": "https://eresfitness.com/wp-content/uploads/2019/11/04391205-Dumbbell-Zottman-Curl_Upper-Arms-FIX-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Flexiones diamante de rodillas",
+    "imagen": "Images/sin maquina/brazos/Flexiones diamante de rodillas.jpg",
+    "descripcion": "Las flexiones diamante de rodillas son un excelente ejercicio para fortalecer los tríceps y el pecho. Esta variante de las flexiones es ideal para aquellos que están comenzando su camino en el mundo del fitness o que desean fortalecer su núcleo antes de pasar a la versión tradicional. Además, no se requiere equipo adicional, lo que lo convierte en un ejercicio accesible y efectivo que se puede hacer en cualquier momento y en cualquier lugar.",
+    "video": "https://eresfitness.com/wp-content/uploads/11741205-Diamond-Push-up-on-knees_Upper-Arms-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Flexiones diamante",
+    "imagen": "Images/sin maquina/brazos/Flexiones diamante.jpg",
+    "descripcion": "Las flexiones diamante son una variante desafiante de las flexiones regulares que se enfocan en el fortalecimiento de los tríceps, hombros y pecho. Este ejercicio es ideal para aquellos que buscan tonificar y fortalecer sus brazos y pecho.",
+    "video": "https://eresfitness.com/wp-content/uploads/2019/09/02831205-Diamond-Push-up_Upper-Arms-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Flexiones sobre los antebrazos",
+    "imagen": "Images/sin maquina/brazos/Flexiones sobre los antebrazos.jpg",
+    "descripcion": "Si estás buscando un ejercicio efectivo para fortalecer tus brazos, hombros y pecho, las flexiones sobre los antebrazos son la respuesta. Este ejercicio te ayuda a desarrollar fuerza y estabilidad en tus músculos superiores, mientras también trabajas en tu equilibrio y coordinación. Con solo unos pocos minutos al día, puedes mejorar tu fuerza y condición física general.",
+    "video": "https://eresfitness.com/wp-content/uploads/14671205-Push-up-on-Forearms_Upper-Arms-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Patada de tríceps con banda elástica",
+    "imagen": "Images/sin maquina/brazos/Patada de tríceps con banda elástica.jpg",
+    "descripcion": "Si estás buscando un ejercicio simple y efectivo para tonificar tus brazos, la patada de tríceps con banda elástica puede ser justo lo que necesitas. Este ejercicio te ayudará a fortalecer tus tríceps y mejorar la apariencia de tus brazos. Además, la banda elástica hace que este ejercicio sea muy conveniente ya que puedes hacerlo en cualquier lugar y en cualquier momento.",
+    "video": "https://eresfitness.com/wp-content/uploads/41431205-Band-Triceps-Kickback_Upper-Arms-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "brazo"
+  },
+  {
+    "nombre": "Dominadas",
+    "imagen": "Images/sin maquina/espalda/Dominadas.jpg",
+    "descripcion": "Fortalece toda la zona de la espalda y brazos con las dominadas, principalmente el dorsal ancho, el músculo más grande de la espalda. Músculos sinergistas: braquial, braquioradial, bíceps braquial, redondo mayor, deltoides posterior, infraespinoso, romboides, redondo menor, trapecio medio y también inferior, escápulas elevadoras, pectoral menor.",
+    "video": "https://eresfitness.com/wp-content/uploads/2020/02/06521205-Pull-up_Back-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
+  },
+  {
+    "nombre": "Encogimiento de hombros con mancuernas",
+    "imagen": "Images/sin maquina/espalda/Encogimiento de hombros con mancuernas.jpg",
+    "descripcion": "Ideal para quienes desean trabajar los trapecios, el encogimiento de hombro con mancuernas permite potenciar la musculatura de esta zona del tren superior.",
+    "video": "https://eresfitness.com/wp-content/uploads/2019/09/04061205-Dumbbell-Shrug_Back-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
+  },
+  {
+    "nombre": "Remo al cuello con banda elástica",
+    "imagen": "Images/sin maquina/espalda/Remo al cuello con banda elastica.jpg",
+    "descripcion": "El ejercicio de remo al cuello o remo al mentón con banda elástica es una excelente forma de fortalecer los músculos de la espalda y mejorar la postura. Al ser una forma de entrenamiento con resistencia, este ejercicio puede ayudar a desarrollar fuerza y aumentar la masa muscular. Además, es una opción práctica para aquellos que buscan una alternativa a las pesas o equipos de gimnasio más costosos.",
+    "video": "https://eresfitness.com/wp-content/uploads/15001205-Band-Upright-Row-Under-two-feet_Shoulders-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
+  },
+  {
+    "nombre": "Remo con mancuernas (ambas manos)",
+    "imagen": "Images/sin maquina/espalda/Remo con mancuernas ambas manos.jpg",
+    "descripcion": "El remo con mancuernas es un ejercicio de entrenamiento de fuerza altamente efectivo que se enfoca en desarrollar la espalda, los hombros y los brazos. Además, este ejercicio también puede mejorar la postura, aumentar la fuerza y mejorar la apariencia física. Si estás buscando una forma efectiva de trabajar la parte superior del cuerpo, el remo con mancuernas es una excelente opción.",
+    "video": "https://eresfitness.com/wp-content/uploads/02931205-Dumbbell-Bent-Over-Row_Back-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
+  },
+  {
+    "nombre": "Remo invertido agarre supino",
+    "imagen": "Images/sin maquina/espalda/Remo invertido agarre supino.jpg",
+    "descripcion": "Si estás buscando un ejercicio para fortalecer tu espalda y mejorar tu postura, el remo invertido agarre supino es una excelente opción. Este ejercicio te permitirá trabajar los músculos de la espalda y los hombros de una manera efectiva y segura. Además, al ser un ejercicio con tu propio peso corporal, no requiere de equipamiento costoso.",
+    "video": "https://eresfitness.com/wp-content/uploads/12231205-Underhand-Grip-Inverted-Back-Row_Back-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
+  },
+  {
+    "nombre": "Remo renegado con mancuernas",
+    "imagen": "Images/sin maquina/espalda/Remo renegado con mancuernas.jpg",
+    "descripcion": "El remo renegado con mancuernas es un ejercicio de fuerza que implica trabajar varios grupos musculares, como los abdominales, los brazos, la espalda y los hombros. Es un movimiento desafiante que requiere equilibrio y coordinación, pero que ofrece grandes beneficios para el cuerpo. Si estás buscando un ejercicio completo para incorporar en tu rutina, el remo renegado puede ser una excelente opción.",
+    "video": "https://eresfitness.com/wp-content/uploads/29801205-Dumbbell-Renegade-Row_Back-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
+  },
+  {
+    "nombre": "Remo sentado con banda elastica",
+    "imagen": "Images/sin maquina/espalda/Remo sentado con banda elastica.jpg",
+    "descripcion": "Este ejercicio te permite trabajar tus músculos de la espalda de manera efectiva mientras te sientas cómodamente en el suelo. Además, puedes ajustar la resistencia de la banda para adaptarse a tu nivel de condición física. Sigue leyendo para aprender cómo hacer este ejercicio correctamente y maximizar tus resultados.",
+    "video": "https://eresfitness.com/wp-content/uploads/38451205-Band-straight_Back-back-seated-row-male_Back-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
+  },
+  {
+    "nombre": "Remo supino con mancuerna",
+    "imagen": "Images/sin maquina/espalda/Remo supino con mancuerna.jpg",
+    "descripcion": "El remo supino con mancuernas es un ejercicio de fuerza que te ayudará a trabajar tus músculos de la espalda, especialmente los músculos del trapecio y el dorsal ancho. Este ejercicio es perfecto para aquellos que buscan mejorar su postura y fortalecer su espalda baja. Además, es una opción ideal para quienes quieren añadir variedad a su rutina de entrenamiento. A continuación, te enseñaremos cómo realizar correctamente el remo supino con mancuernas.",
+    "video": "https://eresfitness.com/wp-content/uploads/37991205-Dumbbell-Bent-Over-Reverse-Row_Back-flat.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
+  },
+  {
+    "nombre": "Twist Super man",
+    "imagen": "Images/sin maquina/espalda/Twist Super man.jpg",
+    "descripcion": "El ejercicio Twist Superman es una variación del popular ejercicio Superman que se enfoca en fortalecer la zona lumbar y los glúteos. En este ejercicio, se agrega un movimiento de torsión para trabajar también los músculos oblicuos del abdomen.",
+    "video": "https://eresfitness.com/wp-content/uploads/40911205-Twist-Superman-male_Hips-flat_1.mp4?_=1",
+    "tipo": "nomaquina",
+    "musculo": "espalda"
   }
+  
 ]
+
