@@ -38,6 +38,17 @@
             border-radius: 5px;
             cursor: pointer;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #ejercicios-lista li button {
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            font-size: 16px;
+            cursor: pointer;
         }
 
         #agregar-ejercicio {
@@ -117,80 +128,90 @@
             const mobileMenu = document.getElementById("mobile-menu");
             const overlay = document.getElementById("overlay");
             mobileMenu.classList.toggle("active");
-        overlay.classList.toggle("active");
-    });
+            overlay.classList.toggle("active");
+        });
 
-    // Cerrar el menú si se hace clic en el overlay
-    document.getElementById("overlay").addEventListener("click", function () {
-        const mobileMenu = document.getElementById("mobile-menu");
-        const overlay = document.getElementById("overlay");
-        mobileMenu.classList.remove("active");
-        overlay.classList.remove("active");
-    });
+        // Cerrar el menú si se hace clic en el overlay
+        document.getElementById("overlay").addEventListener("click", function () {
+            const mobileMenu = document.getElementById("mobile-menu");
+            const overlay = document.getElementById("overlay");
+            mobileMenu.classList.remove("active");
+            overlay.classList.remove("active");
+        });
 
-    // Obtener elementos del DOM
-    const ejerciciosLista = document.getElementById('ejercicios-lista');
-    const agregarEjercicioBtn = document.getElementById('agregar-ejercicio');
+        // Obtener elementos del DOM
+        const ejerciciosLista = document.getElementById('ejercicios-lista');
+        const agregarEjercicioBtn = document.getElementById('agregar-ejercicio');
 
-    // Array para almacenar los ejercicios
-    let ejercicios = [];
+        // Array para almacenar los ejercicios
+        let ejercicios = [];
 
-    // Función para agregar ejercicio
-    function agregarEjercicio() {
-        const ejercicio = prompt('Ingrese el nombre del ejercicio:');
-        if (ejercicio !== null && ejercicio !== '') {
-            ejercicios.push(ejercicio);
+        // Función para agregar ejercicio
+        function agregarEjercicio() {
+            const ejercicio = prompt('Ingrese el nombre del ejercicio:');
+            if (ejercicio !== null && ejercicio !== '') {
+                ejercicios.push(ejercicio);
+                actualizarLista();
+            }
+        }
+
+        // Función para eliminar ejercicio
+        function eliminarEjercicio(index) {
+            ejercicios.splice(index, 1);
             actualizarLista();
         }
-    }
 
-    // Función para actualizar la lista de ejercicios
-    function actualizarLista() {
-        ejerciciosLista.innerHTML = '';
-        ejercicios.forEach((ejercicio, index) => {
-            const li = document.createElement('li');
-            li.textContent = ejercicio;
-            li.dataset.index = index;
-            ejerciciosLista.appendChild(li);
-        });
-    }
+        // Función para actualizar la lista de ejercicios
+        function actualizarLista() {
+            ejerciciosLista.innerHTML = '';
+            ejercicios.forEach((ejercicio, index) => {
+                const li = document.createElement('li');
+                li.textContent = ejercicio;
+                li.dataset.index = index;
+                const eliminarBtn = document.createElement('button');
+                eliminarBtn.textContent = 'Eliminar';
+                eliminarBtn.onclick = () => eliminarEjercicio(index);
+                li.appendChild(eliminarBtn);
+                ejerciciosLista.appendChild(li);
+            });
+        }
 
-    // Agregar evento al botón para agregar ejercicio
-    agregarEjercicioBtn.addEventListener('click', agregarEjercicio);
-</script>
+        // Agregar evento al botón para agregar ejercicio
+        agregarEjercicioBtn.addEventListener('click', agregarEjercicio);
+    </script>
 
-<footer>
-    <div class="container-footer">
-        <div class="logo2">TUTOSGYM</div>
-        <hr/>
-        <nav class="social-media">
-            <h2>Síguenos</h2>
-            <ul class="icons">
-                <li><a href="https://www.instagram.com/" target="_blank"><img src="Iconos/Instagram.svg" alt="Instagram"></a></li>
-                <li><a href="https://www.youtube.com/" target="_blank"><img src="Iconos/YouTube.svg" alt="YouTube"></a></li>
-                <li><a href="https://www.facebook.com/" target="_blank"><img src="Iconos/Facebook.svg" alt="Facebook"></a></li>
-                <li><a href="https://www.tiktok.com/" target="_blank"><img src="Iconos/TikTok.svg" alt="TikTok"></a></li>
-            </ul>                
-        </nav>
-        <nav class="footer-links">
-            <ul>
-                <li><a href="#">Información de contacto</a></li>
-                <li><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">Linea whatsapp</a></li>
-                <li><a href="#" id="direccion">Dirección</a></li>
-                <li><a href="politica.html">Políticas y privacidad</a></li>
-            </ul> 
-        </nav>
+    <footer>
+        <div class="container-footer">
+            <div class="logo2">TUTOSGYM</div>
+            <hr/>
+            <nav class="social-media">
+                <h2>Síguenos</h2>
+                <ul class="icons">
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="Iconos/Instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="Iconos/YouTube.svg" alt="YouTube"></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="Iconos/Facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="https://www.tiktok.com/" target="_blank"><img src="Iconos/TikTok.svg" alt="TikTok"></a></li>
+                </ul>                
+            </nav>
+            <nav class="footer-links">
+                <ul>
+                    <li><a href="#">Información de contacto</a></li>
+                    <li><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">Linea whatsapp</a></li>
+                    <li><a href="#" id="direccion">Dirección</a></li>
+                    <li><a href="politica.html">Políticas y privacidad</a></li>
+                </ul> 
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="modalMapa" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe class="iframe-container" id="mapaIframe" src="" allowfullscreen></iframe>
+        </div>
     </div>
-</footer>
 
-<!-- Modal -->
-<div id="modalMapa" class="modal">
-    <div class="modal-content">
-        <span class="close">&times;</span>
-        <iframe class="iframe-container" id="mapaIframe" src="" allowfullscreen></iframe>
-    </div>
-</div>
-
-<script src="Mapa.js"></script>
+    <script src="Mapa.js"></script>
 </body>
 </html>
