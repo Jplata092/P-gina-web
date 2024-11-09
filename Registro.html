@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/Style-header.css">
     <link rel="stylesheet" href="CSS/Style-registro.css">
     <link rel="stylesheet" href="CSS/Style-footer.css">
+    <script src="registrodireccion.js"></script> <!-- Enlace a tu archivo JavaScript -->
 </head>
 
 <header>
@@ -40,24 +41,26 @@
 </header>
 
 <body>
-    <!-- Main Content -->
-        <div class="login-container">
-            <div class="icon-container">
-                <img src="Iconos/Usuario.svg" alt="User Icon">
-            </div>
-
-            <form action="#">
-                <input type="text" placeholder="Nombre" class="input-button">
-                <input type="text" placeholder="Apellido" class="input-button">
-                <input type="password" placeholder="Contraseña" class="input-button">
-                <input type="password" placeholder="Confirmar contraseña" class="input-button">
-                <input type="email" placeholder="E-mail" class="input-button">
-            
-                <button class="submit-button">
-                    <span class="check-icon">&#10004;</span>
-                </button>
-            </form>
+    <div class="login-container">
+        <div class="icon-container">
+            <img src="Iconos/Usuario.svg" alt="User Icon">
         </div>
+
+        <form id="registroForm">
+            <input type="text" name="nombre" placeholder="Nombre" class="input-button" required>
+            <input type="text" name="apellido" placeholder="Apellido" class="input-button" required>
+            <input type="password" name="contrasena" placeholder="Contraseña" class="input-button" required>
+            <input type="password" name="confirmar_contrasena" placeholder="Confirmar contraseña" class="input-button" required>
+            <input type="email" name="email" placeholder="E-mail" class="input-button" required>
+            <button class="submit-button" type="submit">
+                <span class="check-icon">&#10004;</span>
+            </button>
+        </form>
+
+        <!-- Contenedor para mensajes de confirmación -->
+        <div id="mensaje" style="display: none;"></div>
+    </div>
+
 </body>
 
 <footer>

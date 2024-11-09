@@ -40,26 +40,24 @@
 </header>
 
 <body>
-   <!-- Main Content -->
     <div class="login-container">
         <div class="icon-container">
             <img src="Iconos/Usuario.svg" alt="User Icon">
         </div>
 
-        <form action="#">
-            <input type="email" placeholder="Ingrese E-mail" class="input-button">
-            <input type="password" placeholder="Ingrese contraseña" class="input-button">
+        <!-- Formulario de inicio de sesión -->
+        <form id="loginForm" action="iniciarsesion.php" method="POST">
+            <input type="email" name="email" placeholder="Ingrese E-mail" class="input-button" required>
+            <input type="password" name="contrasena" placeholder="Ingrese contraseña" class="input-button" required>
 
             <ul class="crear-cuenta">
-                <li>No tienes cuenta?<a href="Registro.html">Crear cuenta</a></li>
+                <li>No tienes cuenta? <a href="Registro.html">Crear cuenta</a></li>
             </ul>
 
-            <button class="submit-button">
+            <button type="submit" class="submit-button">
                 <span class="check-icon">&#10004;</span>
             </button>
         </form>
-
-        
     </div>
 </body>
 
