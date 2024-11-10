@@ -1,19 +1,27 @@
+document.addEventListener("DOMContentLoaded", () => {
+    // Cargar el perfil del usuario
+    cargarPerfil();
+
+    // Manejar el cierre de sesión
+    document.getElementById("cerrarSesion").addEventListener("click", () => {
+        // Redirigir a cerrarsesion.php para cerrar la sesión
+        window.location.href = "cerrarsesion.php";
+    });
+});
+
 // Función para cargar los datos del perfil del usuario
 function cargarPerfil() {
-    fetch("perfil.php") // Cambia "obtener_perfil.php" a "perfil.php"
+    fetch("perfil.php")
         .then(response => {
-            console.log("Estado de la respuesta:", response.status); // Mostrar el estado de la respuesta
             if (!response.ok) {
                 throw new Error("No se pudo cargar el perfil.");
             }
             return response.json();
         })
         .then(data => {
-            console.log("Datos recibidos:", data); // Verificar los datos recibidos
-
             if (data.error) {
                 alert(data.error);
-                window.location.href = "iniciar_sesion.html"; // Redirigir a inicio de sesión si no está autenticado
+                window.location.href = "Iniciar sesion.html";
                 return;
             }
 
@@ -28,5 +36,15 @@ function cargarPerfil() {
         });
 }
 
-// Cargar el perfil al cargar la página
-document.addEventListener("DOMContentLoaded", cargarPerfil);
+document.addEventListener("DOMContentLoaded", () => {
+    // Cargar el perfil del usuario
+    cargarPerfil();
+
+    // Manejar el cierre de sesión
+    document.getElementById("cerrarSesion").addEventListener("click", () => {
+        console.log("Botón de cerrar sesión presionado"); // Mensaje de depuración
+
+        // Redirigir a cerrarsesion.php para cerrar la sesión
+        window.location.href = "cerrarsesion.php";
+    });
+});

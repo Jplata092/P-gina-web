@@ -115,6 +115,27 @@ form {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+#cerrarSesion {
+    background-color: #e70000; /* Color rojo para destacar el botón de cierre de sesión */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    width: 250px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#cerrarSesion:hover {
+    background-color: #dc0000; /* Cambia el color al pasar el cursor sobre el botón */
+    transform: scale(1.02); /* Aumenta el tamaño del botón al pasar el cursor sobre él */
+}
+
+
 @media (max-width: 670px) {
     .main-container {
         flex-direction: column;

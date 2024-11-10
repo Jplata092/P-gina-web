@@ -46,19 +46,24 @@
         </div>
 
         <!-- Formulario de inicio de sesión -->
-        <form id="loginForm" action="iniciarsesion.php" method="POST">
+        <form id="loginForm">
             <input type="email" name="email" placeholder="Ingrese E-mail" class="input-button" required>
             <input type="password" name="contrasena" placeholder="Ingrese contraseña" class="input-button" required>
 
             <ul class="crear-cuenta">
-                <li>No tienes cuenta? <a href="Registro.html">Crear cuenta</a></li>
+                <li>¿No tienes cuenta? <a href="Registro.html">Crear cuenta</a></li>
             </ul>
 
             <button type="submit" class="submit-button">
                 <span class="check-icon">&#10004;</span>
             </button>
         </form>
+
+        <!-- Div para mostrar mensajes de error o éxito -->
+        <div id="mensaje" style="color: red; margin-top: 10px;"></div>
     </div>
+
+    <script src="iniciarsesion.js"></script> <!-- Enlace a tu archivo JavaScript -->
 </body>
 
 <footer>

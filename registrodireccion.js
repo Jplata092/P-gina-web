@@ -24,9 +24,4 @@ document.getElementById("registroForm").addEventListener("submit", function(even
         mensajeDiv.innerText = "Hubo un problema con el registro.";
         mensajeDiv.style.color = "red";
     });
-
-    event.preventDefault();
-console.log("Formulario enviado con AJAX"); // Esto debe aparecer en la consola
-
 });
-
