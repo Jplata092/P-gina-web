@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="CSS/Style-header.css">
     <link rel="stylesheet" href="CSS/Style-perfil.css">
     <link rel="stylesheet" href="CSS/Style-footer.css">
+    <script src="verificarSesion.js"></script> <!-- Enlace a archivo JavaScript que verifica la sesión -->
+    <script src="perfil.js"></script> <!-- Enlace a archivo JavaScript que contiene la lógica de la página -->
+
 </head>
 
 <header>
@@ -17,8 +20,9 @@
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="Ejercicios.html">Ejercicios</a></li>
-                <li><a href="Registro.html">Registrarse</a></li>
-                <li><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+                <li id="registro"><a href="Registro.html">Registrarse</a></li>
+                <li id="inicioSesion"><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+                <li id="misRutinas" style="display: none;"><a href="perfil.html">Mis rutinas</a></li>
             </ul>
             <ul class="menu-links">
                 <li><a href="#" id="menu-icon"><img src="Iconos/menu.svg" alt="Menu"></a></li>
@@ -34,42 +38,62 @@
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="Ejercicios.html">Ejercicios</a></li>
-            <li><a href="Registro.html">Registrarse</a></li>
-            <li><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+            <li id="registroMobile"><a href="Registro.html">Registrarse</a></li>
+            <li id="inicioSesionMobile"><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+            <li id="misRutinasMobile" style="display: none;"><a href="perfil.html">Mis rutinas</a></li>
         </ul>
     </div>
+
 </header>
 
 
-<div class="main-container">
-    <div class="login-container">
-        <div class="icon-container">
-            <img src="Iconos/Usuario.svg" alt="User Icon">
+<script>
+    document.getElementById("menu-icon").addEventListener("click", function (event) {
+        event.preventDefault();
+        const mobileMenu = document.getElementById("mobile-menu");
+        const overlay = document.getElementById("overlay");
+        mobileMenu.classList.toggle("active");
+        overlay.classList.toggle("active");
+    });
+
+    document.getElementById("overlay").addEventListener("click", function () {
+        const mobileMenu = document.getElementById("mobile-menu");
+        const overlay = document.getElementById("overlay");
+        mobileMenu.classList.remove("active");
+        overlay.classList.remove("active");
+    });
+</script>
+
+<body>
+    
+    <div class="main-container">
+        <div class="login-container">
+            <div class="icon-container">
+                <img src="Iconos/Usuario.svg" alt="User Icon">
+            </div>
+    
+            <!-- Formulario para mostrar los datos del usuario -->
+            <form id="perfilForm">
+                <input type="text" id="nombre" placeholder="Nombre" class="input-button" readonly>
+                <input type="text" id="apellido" placeholder="Apellido" class="input-button" readonly>
+                <input type="email" id="correo" placeholder="Correo electrónico" class="input-button" readonly>
+                <button type="button" id="cerrarSesion" class="input-button">Cerrar sesión</button>
+            </form>
         </div>
-
-        <!-- Formulario para mostrar los datos del usuario -->
-        <form id="perfilForm">
-            <input type="text" id="nombre" placeholder="Nombre" class="input-button" readonly>
-            <input type="text" id="apellido" placeholder="Apellido" class="input-button" readonly>
-            <input type="email" id="correo" placeholder="Correo electrónico" class="input-button" readonly>
-        
-            <button type="button" id="cerrarSesion" class="input-button">Cerrar sesión</button>
-
-        </form>
+    
+        <div class="rutina-container">
+            <h2>Mi Rutina</h2>
+            <ul id="ejercicios-lista">
+                <!-- Los ejercicios se agregarán aquí dinámicamente -->
+            </ul>
+            <button id="agregar-ejercicio">Agregar Ejercicio</button>
+        </div>
+    
+        <script src="perfil.js"></script>
+    
     </div>
 
-    <div class="rutina-container">
-        <h2>Mi Rutina</h2>
-        <ul id="ejercicios-lista">
-            <!-- Los ejercicios se agregarán aquí dinámicamente -->
-        </ul>
-        <button id="agregar-ejercicio">Agregar Ejercicio</button>
-    </div>
-
-    <script src="perfil.js"></script>
-
-</div>
-
+</body>
 
 <footer>
     <div class="container-footer">

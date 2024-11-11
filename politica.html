@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="CSS/Style-header.css">
     <link rel="stylesheet" href="CSS/Style-politica.css">
     <link rel="stylesheet" href="CSS/Style-footer.css">
+    <script src="verificarSesion.js"></script> <!-- Enlace a archivo JavaScript que verifica la sesión -->
+    <script src="perfil.js"></script> <!-- Enlace a archivo JavaScript que contiene la lógica de la página -->
 </head>
 
 <header>
@@ -16,8 +18,9 @@
             <ul class="nav-links">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="Ejercicios.html">Ejercicios</a></li>
-                <li><a href="Registro.html">Registrarse</a></li>
-                <li><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+                <li id="registro"><a href="Registro.html">Registrarse</a></li>
+                <li id="inicioSesion"><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+                <li id="misRutinas" style="display: none;"><a href="perfil.html">Mis rutinas</a></li>
             </ul>
             <ul class="menu-links">
                 <li><a href="#" id="menu-icon"><img src="Iconos/menu.svg" alt="Menu"></a></li>
@@ -33,10 +36,12 @@
         <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="Ejercicios.html">Ejercicios</a></li>
-            <li><a href="Registro.html">Registrarse</a></li>
-            <li><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+            <li id="registroMobile"><a href="Registro.html">Registrarse</a></li>
+            <li id="inicioSesionMobile"><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+            <li id="misRutinasMobile" style="display: none;"><a href="perfil.html">Mis rutinas</a></li>
         </ul>
     </div>
+
 </header>
 
 <body>
