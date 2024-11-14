@@ -12,13 +12,16 @@ body {
     padding: -10px;
 }
 
+
+
+
 /* Login Section */
 .login-container {
     display: flex;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    height: 70vh;
+    height: 120vh;
     background-color: #e7e7e7;
 }
 
