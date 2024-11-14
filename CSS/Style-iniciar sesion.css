@@ -5,14 +5,12 @@
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f5f5f5;
     color: #333;
-    margin-top: 50px; /* Ajusta este valor según la cantidad de espacio que desees */
+    padding: 2%; /* Ajuste adaptable */
 }
-
 
 /* Login Section */
 .login-container {
@@ -20,33 +18,36 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 70vh; /* Ocupa el 100% de la altura de la ventana */
+    min-height: 70vh; /* Se adapta a la altura de la pantalla */
     background-color: #e7e7e7;
+    padding: 2%; /* Espacio interno adaptable */
 }
 
 .icon-container img {
-    width: 100px;
+    width: 20%; /* Escala relativa */
+    max-width: 150px; /* Tamaño máximo */
 }
 
 form {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%; /* Ancho adaptable */
+    max-width: 400px; /* Ancho máximo */
 }
 
 .input-button {
     background-color: #ffd000;
     color: black;
-    font-size: 18px;
+    font-size: 1rem; /* Tamaño de fuente relativo */
     font-weight: bold;
     border: none;
     padding: 10px;
     margin: 10px 0;
-    width: 250px;
-    text-align: center;
+    width: 100%; /* Ancho del 100% del contenedor */
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .submit-button {
@@ -61,14 +62,18 @@ form {
     align-items: center;
     cursor: pointer;
     margin-top: 20px;
-    margin-left: 500px; /* Ajusta la posición 100px hacia la derecha */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para destacar el contenedor */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 768px) {
     .submit-button {
-        margin-left: 0px; /* Ajusta la posición a la izquierda */
-        margin-top: 30px; /* Ajusta la posición a la izquierda */
+        width: 40px;
+        height: 40px;
+        margin-top: 30px;
+    }
+
+    .input-button {
+        font-size: 0.9rem; /* Tamaño de fuente más pequeño */
     }
 }
 
@@ -76,39 +81,41 @@ form {
     transform: scale(1.1);
 }
 
-
 .check-icon {
     font-size: 24px;
     color: black;
 }
 
-.crear-cuenta ul{
-    position: relative; /* Posición relativa para el contenedor */
-    list-style-type: none; /* Eliminar los puntos de la lista */
-    padding: 0; /* Eliminar el relleno de la lista */
-    margin: 0; /* Eliminar el margen de la lista */
-    display: flex; /* Alinear los elementos en una sola línea */
-    align-items: center; /* Alinear verticalmente al centro */
+.crear-cuenta ul {
+    position: relative;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Alineación en columna para dispositivos pequeños */
+    align-items: center;
+    gap: 10px; /* Espacio entre elementos */
 }
 
-.crear-cuenta li{
-    font-size: 20px;
-    list-style-type: none; /* Eliminar los puntos */
-    padding: 0; /* Eliminar el relleno de la lista */
-    margin-top: 20px; /* Eliminar el margen de la lista */
-    display: flex; /* Alinear los elementos en línea */
-    align-items: center; /* Alinear verticalmente al centro */
-    text-decoration: none; /* Eliminar el subrayado del enlace */
-    color: #000000; /* Color del enlace */
-    font-weight: bold; /* Negrita para el enlace */
+@media (min-width: 768px) {
+    .crear-cuenta ul {
+        flex-direction: row; /* Alineación en fila para dispositivos más grandes */
+    }
+}
+
+.crear-cuenta li {
+    font-size: 1rem; /* Tamaño de fuente relativo */
+    padding: 5px;
+    color: #000000;
+    font-weight: bold;
 }
 
 .crear-cuenta li a {
-    text-decoration: none; /* Eliminar el subrayado del enlace */
-    color: #cea800; /* Color del enlace */
-    font-weight: bold; /* Negrita para el enlace */
+    text-decoration: none;
+    color: #cea800;
+    font-weight: bold;
 }
 
 .crear-cuenta li a:hover {
-    text-decoration: underline; /* Aumentar el tamaño del enlace al pasar el ratón */
+    text-decoration: underline;
 }
