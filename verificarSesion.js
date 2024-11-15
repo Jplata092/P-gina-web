@@ -13,6 +13,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("misRutinas").style.display = "inline";
                 document.getElementById("registro").style.display = "none";
                 document.getElementById("inicioSesion").style.display = "none";
+
+                document.getElementById("misRutinasMobile").style.display = "inline";
+                document.getElementById("registroMobile").style.display = "none";
+                document.getElementById("inicioSesionMobile").style.display = "none";
             }
         })
         .catch(error => console.error("Error al verificar la sesión:", error));
