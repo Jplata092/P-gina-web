@@ -21,7 +21,7 @@ body {
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    height: 120vh;
+    height: 130vh;
     background-color: #e7e7e7;
 }
 
@@ -30,14 +30,8 @@ body {
         max-width: 70%;
         max-width: 70%;
     }
-    .input-button{
-        width: 70%;
-        height: 70%;
-    }
-    .submit-button{
-        max-width: 70%;
-        max-width: 70%;
-    }
+    
+    
 }
 
 .icon-container img {
