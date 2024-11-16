@@ -12,16 +12,13 @@ body {
     padding: -10px;
 }
 
-
-
-
 /* Login Section */
 .login-container {
     display: flex;
     flex-direction: column ;
     justify-content: center;
     align-items: center;
-    height: 130vh;
+    height: 100vh;
     background-color: #e7e7e7;
 }
 
@@ -30,8 +27,6 @@ body {
         max-width: 70%;
         max-width: 70%;
     }
-    
-    
 }
 
 .icon-container img {

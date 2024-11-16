@@ -1,7 +1,7 @@
 // Función para cargar y mostrar ejercicios en función del tipo y grupo muscular
 function cargarEjercicios() {
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", "exercises.json", true);
+    xhr.open("GET", "obtener-ejercicios.php", true); // Cambiado al endpoint PHP
 
     xhr.onload = function () {
         if (xhr.status === 200) {

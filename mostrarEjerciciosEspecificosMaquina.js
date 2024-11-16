@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Cargar los ejercicios específicos desde el JSON
     const xhr = new XMLHttpRequest();
-    xhr.open("GET", "exercises.json", true);
+    xhr.open("GET", "obtener-ejercicios.php", true);
 
     xhr.onload = function () {
         if (xhr.status === 200) {
