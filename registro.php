@@ -38,7 +38,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Ejecutar y verificar la inserción
     if ($stmt->execute()) {
-        echo "Registro exitoso.";
+        // Obtener el ID del usuario recién insertado
+        $usuario_id = $conn->insert_id;
+
+        // Insertar en la tabla de rutinas con el usuario_id correspondiente
+        $sql_rutinas = "INSERT INTO `rutinas` (`rutina_id`, `usuario_id`, `nombre`, `fecha_creacion`) VALUES (NULL, ?, '', current_timestamp())";
+        $stmt_rutinas = $conn->prepare($sql_rutinas);
+        $stmt_rutinas->bind_param("i", $usuario_id);
+
+        if ($stmt_rutinas->execute()) {
+            echo "Registro exitoso y rutina creada.";
+        } else {
+            echo "Error al crear la rutina: " . $stmt_rutinas->error;
+        }
+
+        $stmt_rutinas->close();
     } else {
         echo "Error en el registro: " . $stmt->error;
     }

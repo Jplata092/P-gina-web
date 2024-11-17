@@ -38,9 +38,9 @@ document.addEventListener("DOMContentLoaded", function () {
     xhr.send();
 });
 
-// Función para mostrar ejercicios específicos de un grupo muscular y de tipo 'maquina'
+// Función para mostrar ejercicios específicos de un grupo muscular y de tipo 'nomaquina'
 function mostrarEjerciciosEspecificos(ejercicios, grupoMuscular) {
-    // Filtrar ejercicios para el grupo muscular específico y de tipo 'maquina'
+    // Filtrar ejercicios para el grupo muscular específico y de tipo 'nomaquina'
     const ejerciciosFiltrados = ejercicios.filter(ej => ej.musculo === grupoMuscular && ej.tipo === "maquina");
     console.log("Ejercicios filtrados para mostrar (tipo maquina):", ejerciciosFiltrados);  // Depuración
 
