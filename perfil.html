@@ -10,62 +10,66 @@
     <link rel="stylesheet" href="CSS/Style-footer.css">
     <script src="verificarSesion.js"></script> <!-- Enlace a archivo JavaScript que verifica la sesión -->
     <script src="perfil.js"></script> <!-- Enlace a archivo JavaScript que contiene la lógica de la página -->
+    <script src="guardarEjercicioYRedirigir.js"></script>
+    <script src="rutinaUsuario.js"></script> <!-- Enlace a archivo JavaScript que contiene la lógica de la página -->
+    
 
 </head>
 
-<header>
-    <div class="header-container">
-        <div class="logo">TUTOSGYM</div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="Ejercicios.html">Ejercicios</a></li>
-                <li id="registro"><a href="Registro.html">Registrarse</a></li>
-                <li id="inicioSesion"><a href="Iniciar sesion.html">Inicio de sesión</a></li>
-                <li id="misRutinas" style="display: none;"><a href="perfil.html">Mis rutinas</a></li>
-            </ul>
-            <ul class="menu-links">
-                <li><a href="#" id="menu-icon"><img src="Iconos/menu.svg" alt="Menu"></a></li>
-            </ul>
-        </nav>
-    </div>
-
-    <!-- Fondo de overlay para oscurecer y desenfocar la pantalla -->
-    <div class="overlay" id="overlay"></div>
-
-    <!-- Menú desplegable para dispositivos móviles -->
-    <div class="mobile-menu" id="mobile-menu">
-        <ul>
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="Ejercicios.html">Ejercicios</a></li>
-            <li id="registroMobile"><a href="Registro.html">Registrarse</a></li>
-            <li id="inicioSesionMobile"><a href="Iniciar sesion.html">Inicio de sesión</a></li>
-            <li id="misRutinasMobile" style="display: none;"><a href="perfil.html">Mis rutinas</a></li>
-        </ul>
-    </div>
-
-</header>
-
-
-<script>
-    document.getElementById("menu-icon").addEventListener("click", function (event) {
-        event.preventDefault();
-        const mobileMenu = document.getElementById("mobile-menu");
-        const overlay = document.getElementById("overlay");
-        mobileMenu.classList.toggle("active");
-        overlay.classList.toggle("active");
-    });
-
-    document.getElementById("overlay").addEventListener("click", function () {
-        const mobileMenu = document.getElementById("mobile-menu");
-        const overlay = document.getElementById("overlay");
-        mobileMenu.classList.remove("active");
-        overlay.classList.remove("active");
-    });
-</script>
-
 <body>
     
+    <header>
+        <div class="header-container">
+            <div class="logo">TUTOSGYM</div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="Ejercicios.html">Ejercicios</a></li>
+                    <li id="registro"><a href="Registro.html">Registrarse</a></li>
+                    <li id="inicioSesion"><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+                    <li id="misRutinas" style="display: none;"><a href="perfil.html">Mis rutinas</a></li>
+                </ul>
+                <ul class="menu-links">
+                    <li><a href="#" id="menu-icon"><img src="Iconos/menu.svg" alt="Menu"></a></li>
+                </ul>
+            </nav>
+        </div>
+    
+        <!-- Fondo de overlay para oscurecer y desenfocar la pantalla -->
+        <div class="overlay" id="overlay"></div>
+    
+        <!-- Menú desplegable para dispositivos móviles -->
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Ejercicios.html">Ejercicios</a></li>
+                <li id="registroMobile"><a href="Registro.html">Registrarse</a></li>
+                <li id="inicioSesionMobile"><a href="Iniciar sesion.html">Inicio de sesión</a></li>
+                <li id="misRutinasMobile" style="display: none;"><a href="perfil.html">Mis rutinas</a></li>
+            </ul>
+        </div>
+    
+    </header>
+    
+    
+    <script>
+        document.getElementById("menu-icon").addEventListener("click", function (event) {
+            event.preventDefault();
+            const mobileMenu = document.getElementById("mobile-menu");
+            const overlay = document.getElementById("overlay");
+            mobileMenu.classList.toggle("active");
+            overlay.classList.toggle("active");
+        });
+    
+        document.getElementById("overlay").addEventListener("click", function () {
+            const mobileMenu = document.getElementById("mobile-menu");
+            const overlay = document.getElementById("overlay");
+            mobileMenu.classList.remove("active");
+            overlay.classList.remove("active");
+        });
+    </script>
+
+
     <div class="main-container">
         <div class="login-container">
             <div class="icon-container">
@@ -80,48 +84,55 @@
                 <button type="button" id="cerrarSesion" class="input-button">Cerrar sesión</button>
             </form>
         </div>
-    
+
+        <!-- Ejercicios de la rutina del usuario -->
         <div class="rutina-container">
-            <h2>Mi Rutina</h2>
-            <ul id="ejercicios-lista">
-                <!-- Los ejercicios se agregarán aquí dinámicamente -->
+            <h1>Mi Rutina</h1>
+            <ul id="ejercicios-lista"> 
+
+                 <li class="ejercicio">
+                    <a href="Ventana_emergente.html">
+                        <img src="Images/Imagenes ejercicios sin pesas (1).png" alt="Ejercicio sin máquina 3">
+                    </a>
+                     <!-- <div class="text-container"><p>Flexión de pecho</p></div> -->
+                </li>
+
             </ul>
-            <button id="agregar-ejercicio">Agregar Ejercicio</button>
         </div>
     
         <script src="perfil.js"></script>
     
     </div>
 
+    <footer>
+        <div class="container-footer">
+            <div class="logo2">TUTOSGYM</div>
+            <hr />
+            <nav class="social-media">
+                <h2>Síguenos</h2>
+                <ul class="icons">
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="Iconos/Instagram.svg"
+                                alt="Instagram"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="Iconos/YouTube.svg" alt="YouTube"></a>
+                    </li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="Iconos/Facebook.svg"
+                                alt="Facebook"></a></li>
+                    <li><a href="https://www.tiktok.com/" target="_blank"><img src="Iconos/TikTok.svg" alt="TikTok"></a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="footer-links">
+                <ul>
+                    <li><a href="#">Información de contacto</a></li>
+                    <li><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">Linea whatsapp</a></li>
+                    <li><a href="#" id="direccion">Dirección</a></li>
+                    <li><a href="politica.html">Políticas y privacidad</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    
 </body>
-
-<footer>
-    <div class="container-footer">
-        <div class="logo2">TUTOSGYM</div>
-        <hr />
-        <nav class="social-media">
-            <h2>Síguenos</h2>
-            <ul class="icons">
-                <li><a href="https://www.instagram.com/" target="_blank"><img src="Iconos/Instagram.svg"
-                            alt="Instagram"></a></li>
-                <li><a href="https://www.youtube.com/" target="_blank"><img src="Iconos/YouTube.svg" alt="YouTube"></a>
-                </li>
-                <li><a href="https://www.facebook.com/" target="_blank"><img src="Iconos/Facebook.svg"
-                            alt="Facebook"></a></li>
-                <li><a href="https://www.tiktok.com/" target="_blank"><img src="Iconos/TikTok.svg" alt="TikTok"></a>
-                </li>
-            </ul>
-        </nav>
-        <nav class="footer-links">
-            <ul>
-                <li><a href="#">Información de contacto</a></li>
-                <li><a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">Linea whatsapp</a></li>
-                <li><a href="#" id="direccion">Dirección</a></li>
-                <li><a href="politica.html">Políticas y privacidad</a></li>
-            </ul>
-        </nav>
-    </div>
-</footer>
 
 <!-- Modal -->
 <div id="modalMapa" class="modal">

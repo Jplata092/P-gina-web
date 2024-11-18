@@ -13,10 +13,10 @@ footer {
     color: #fff; /* Color del texto */
     padding: 20px; /* Espaciado interno */
     text-align: center; /* Centramos el texto */
-    position: relative; /* Evita conflictos con otros elementos */
     z-index: 10; /* Coloca el footer por encima de otros elementos */
     margin-top: auto; /* Empuja el footer al final */
     overflow: hidden; /* Oculta cualquier contenido desbordado */
+    
 }
 
 .container-footer {
