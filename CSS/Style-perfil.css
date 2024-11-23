@@ -127,18 +127,17 @@ form {
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background-color: white; /* Fondo para diferenciar cada tarjeta */
+    background-color: #e7e7e7; /* Fondo para diferenciar cada tarjeta */
     display: flex;
     flex-direction: column; /* Alinea elementos verticalmente dentro de la tarjeta */
     align-items: center;
     justify-content: flex-start;
-    gap: 10px; /* Espaciado interno entre elementos dentro de la tarjeta */
+    gap: 3px; /* Espaciado interno entre elementos dentro de la tarjeta */
 }
 
 .ejercicio {
     align-items: center;
     justify-content: center;
-    width: 250px; /* Ajusta el ancho según sea necesario */
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: white; /* Fondo para destacar los elementos */
@@ -154,6 +153,24 @@ form {
 
 .ejercicio:hover {
     transform: scale(1.1);
+}
+
+.text-container {
+    margin:0;
+    border-radius: 5px;
+    display: block; /* Asegura que sea un bloque visible */
+    text-align: center; /* Centra el texto */
+    background-color: #ffd000; /* Color de fondo para visualizar */
+    padding: 10px; /* Espaciado interno */
+    color: black; /* Asegúrate de que el texto sea visible */ 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    display: block; /* Asegura que sea visible */
+    width: 100%; /* Ajusta el ancho */
+    height: 100%; /* Ajusta la altura */
+}
+
+.text-container p {
+    font-weight: bold;
 }
 
 @media (max-width: 670px) {

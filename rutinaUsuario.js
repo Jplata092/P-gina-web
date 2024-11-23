@@ -54,8 +54,20 @@ document.addEventListener("DOMContentLoaded", function () {
                         img.src = "Images/imagen-no-disponible.png"; // Imagen por defecto
                     });
 
+                    // Crear contenedor de texto con solo el nombre
+                    const textContainer = document.createElement("div");
+                    textContainer.classList.add("text-container");
+
+                    const nombre = document.createElement("p");
+                    nombre.textContent = ejercicio.nombre;
+
+                    textContainer.appendChild(nombre);
+
+                    // Ensamblar los elementos
                     a.appendChild(img);
                     li.appendChild(a);
+                    li.appendChild(textContainer);
+
                     ejerciciosLista.appendChild(li);
                 });
             })

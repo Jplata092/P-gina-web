@@ -45,9 +45,9 @@ $response = [
     'ejercicios' => []
 ];
 
-// Consulta para obtener ejercicios
+// Consulta para obtener ejercicios con descripción y video
 $sql = "
-    SELECT re.ejercicio_id, e.nombre, e.imagen
+    SELECT re.ejercicio_id, e.nombre, e.imagen, e.descripcion, e.video
     FROM rutina_ejercicio re
     INNER JOIN ejercicios e ON re.ejercicio_id = e.ejercicio_id
     WHERE re.rutina_id = ?
@@ -61,7 +61,13 @@ $result = $stmt->get_result();
 
 if ($result->num_rows > 0) {
     while ($fila = $result->fetch_assoc()) {
-        $response['ejercicios'][] = $fila;
+        $response['ejercicios'][] = [
+            'ejercicio_id' => $fila['ejercicio_id'],
+            'nombre' => $fila['nombre'],
+            'imagen' => $fila['imagen'],
+            'descripcion' => $fila['descripcion'],
+            'video' => $fila['video']
+        ];
     }
 }
 
