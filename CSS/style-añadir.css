@@ -84,6 +84,7 @@ body {
     width: 100%; /* Asegura que todos los elementos se alineen */
     max-width: 450px;
     margin: 0 auto;
+    margin-bottom: 20px; /* Espaciado entre los elementos */
 }
 
 .contenedor textarea {
@@ -96,6 +97,24 @@ body {
     resize: none;
     transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
+
+.input-descripcion {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box;
+}
+
+.input-descripcion:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
 
 .contenedor .imagen-container img {
     max-width: 100px;
@@ -188,10 +207,23 @@ body {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.dropdown {
+.dropdown, .musculo {
     position: relative;
     display: inline-block;
 }
+
+.dropdown-menu, .musculo-menu{
+    display: none;
+    position: absolute;
+    left: 50%;  /* Centra el menú horizontalmente */
+    transform: translateX(-50%);  /* Ajusta la posición para que quede perfectamente centrado */
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 10px;
+    z-index: 1;
+}
+
 .dropdown button {
     background-color: #007bff;
     color: white;
@@ -201,32 +233,7 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
-.dropdown button:hover {
-    background-color: #0056b3;
-}
-.dropdown-menu {
-    display: none;
-    position: absolute;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    margin-top: 10px;
-    z-index: 1;
-}
-.dropdown-menu a {
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    display: block;
-}
-.dropdown-menu a:hover {
-    background-color: #f1f1f1;
-}
 
-.musculo {
-    position: relative;
-    display: inline-block;
-}
 .musculo button {
     background-color: #28a745;
     color: white;
@@ -236,24 +243,25 @@ body {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.dropdown button:hover {
+    background-color: #0056b3;
+}
+
 .musculo button:hover {
     background-color: #218838;
 }
-.musculo-menu {
-    display: none;
-    position: absolute;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    margin-top: 10px;
-    z-index: 1;
-}
-.musculo-menu a {
+
+.dropdown-menu a, .musculo-menu a {
     color: black;
     padding: 10px 20px;
     text-decoration: none;
     display: block;
 }
+.dropdown-menu a:hover {
+    background-color: #f1f1f1;
+}
+
 .musculo-menu a:hover {
     background-color: #f1f1f1;
 }

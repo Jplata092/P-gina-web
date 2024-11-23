@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Añadir Ejercicio</title>
     <link rel="stylesheet" href="CSS/style-añadir.css">
+    <form action="guardaEjercicioBD.php" method="POST" enctype="multipart/form-data">
+
 </head>
 <body>
     <header class="header">
@@ -17,94 +19,165 @@
             
             <h2>Agregar Ejercicio</h2>
 
-            <input type="text" id="titulo" placeholder="Nombre del ejercicio" class="input-titulo">
+            <!-- Formulario con el atributo action apuntando al archivo PHP -->
+            <form action="guardar_ejercicio.php" method="POST" enctype="multipart/form-data">
+                <input type="text" name="nombre" placeholder="Nombre del ejercicio" class="input-titulo" required>
 
-            <div class="image-uploader">
-                <label for="upload-image" class="upload-label">
-                    <img src="Iconos/upload.png" alt="Subir imagen del ejercicio" class="upload-icon">
-                    <p>Da click y selecciona la imagen desde tu dispositivo</p>
-                </label>
-                <input type="file" id="upload-image" accept="image/*" class="upload-input" onchange="previewImage(event)">
-                <div class="preview-container" id="preview-container">
-                    <!-- Aquí se mostrará la vista previa de la imagen -->
+                <div class="image-uploader">
+                    <label for="upload-image" class="upload-label">
+                        <img src="Iconos/upload.png" alt="Subir imagen del ejercicio" class="upload-icon">
+                        <p>Da click y selecciona la imagen desde tu dispositivo</p>
+                    </label>
+                    <input type="file" name="imagen" id="upload-image" accept="image/*" class="upload-input" onchange="previewImage(event)">
+                    <div class="preview-container" id="preview-container">
+                        <!-- Aquí se mostrará la vista previa de la imagen -->
+                    </div>
                 </div>
-            </div>
 
-            <textarea id="descripcion" placeholder="Descripción del ejercicio" class="input-descripcion"></textarea>
-            <textarea id="video" placeholder="Link del video del ejercicio" class="input-descripcion"></textarea>
-            <p class="descripcion">Por favor, introduce el enlace del video correspondiente al ejercicio.</p>
+                <textarea name="descripcion" placeholder="Descripción del ejercicio" class="input-descripcion" required></textarea>
+                <input type="text" name="video" placeholder="Link del video del ejercicio" class="input-descripcion" required>
 
-            <div class="dropdown">
-                <button onclick="toggleMenu()">Tipo de ejercicio</button>
-                <div class="dropdown-menu" id="menu">
-                    <a href="#">Con máquina</a>
-                    <a href="#">Sin máquina</a>
+                <!-- Menú tipo de ejercicio -->
+                <div class="dropdown">
+                    <button type="button" onclick="toggleMenu()">Tipo de ejercicio</button>
+                    <div class="dropdown-menu" id="menu">
+                        <a href="#" onclick="setTipo('Con máquina')">Con máquina</a>
+                        <a href="#" onclick="setTipo('Sin máquina')">Sin máquina</a>
+                    </div>
                 </div>
-            </div>
-    
-            <div class="musculo">
-                <button onclick="toggleMuscleMenu()">Seleccionar Músculo</button>
-                <div class="musculo-menu" id="muscleMenu">
-                    <a href="#">Pecho</a>
-                    <a href="#">Pierna</a>
-                    <a href="#">Abdomen</a>
-                    <a href="#">Brazo</a>
-                    <a href="#">Espalda</a>
-                    <a href="#">Hombro</a>
+        
+                <!-- Menú seleccionar músculo -->
+                <div class="musculo">
+                    <button type="button">Seleccionar Músculo</button>
+                    <div class="musculo-menu" id="muscleMenu">
+                        <a href="#" onclick="setMusculo('Pecho')">Pecho</a>
+                        <a href="#" onclick="setMusculo('Pierna')">Pierna</a>
+                        <a href="#" onclick="setMusculo('Abdomen')">Abdomen</a>
+                        <a href="#" onclick="setMusculo('Brazo')">Brazo</a>
+                        <a href="#" onclick="setMusculo('Espalda')">Espalda</a>
+                        <a href="#" onclick="setMusculo('Hombro')">Hombro</a>
+                    </div>
                 </div>
-            </div>
-            <button class="guardar-button">Guardar</button>
+
+                <!-- Campo oculto para tipo de ejercicio -->
+                <input type="hidden" name="tipo" id="tipoEjercicio" required>
+
+                <!-- Campo oculto para músculo -->
+                <input type="hidden" name="musculo" id="musculoEjercicio" required>
+
+                <!-- Botón guardar -->
+                <button type="submit" class="guardar-button">Guardar</button>
+
+                <div id="mensajeResultado" style="display: none;"></div>
+            </form>
         </div>
+    </div>
 
+    <!-- Script para manejar los menús desplegables -->
     <script>
-        document.addEventListener('click', function (event) {
-    const menu = document.getElementById('menu');
-    const dropdownButton = document.querySelector('.dropdown button');
-
-    // Verifica si el clic fue dentro del botón o del menú
-    if (dropdownButton.contains(event.target)) {
-        // Si haces clic en el botón, alterna el menú
-        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
-    } else if (!menu.contains(event.target)) {
-        // Si haces clic fuera del menú, ciérralo
-        menu.style.display = 'none';
-    }
-    });
-    </script>
-
-
-    <script>
-        function toggleMuscleMenu() {
-            const menu = document.getElementById('muscleMenu');
-            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+                // Función para establecer el valor del tipo de ejercicio
+        function setTipo(tipo) {
+            document.getElementById('tipoEjercicio').value = tipo === 'Con máquina' ? 'maquina' : 'nomaquina';
+            
+            const dropdownButton = document.querySelector('.dropdown button');
+            dropdownButton.textContent = tipo;
+            
+            const menu = document.getElementById('menu');
+            menu.style.display = 'none';
         }
 
-        // Cierra el menú si se hace clic fuera de él
-        window.onclick = function(event) {
-            const menu = document.getElementById('muscleMenu');
-            if (!event.target.matches('.musculo button')) {
+        // Función para manejar el menú de selección de músculo
+        function setMusculo(musculo) {
+            document.getElementById('musculoEjercicio').value = musculo.toLowerCase(); // Convertir a minúsculas
+            
+            const muscleButton = document.querySelector('.musculo button');
+            muscleButton.textContent = musculo;
+            
+            const muscleMenu = document.getElementById('muscleMenu');
+            muscleMenu.style.display = 'none';
+        }
+
+
+        // Manejo del menú desplegable para el tipo de ejercicio
+        document.addEventListener('click', function (event) {
+            const menu = document.getElementById('menu');
+            const dropdownButton = document.querySelector('.dropdown button');
+
+            if (dropdownButton.contains(event.target)) {
+                menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+            } else if (!menu.contains(event.target)) {
                 menu.style.display = 'none';
             }
-        };
-    </script>
+        });
 
-    <script>
+        // Manejo del menú desplegable de selección de músculo
+        document.addEventListener('click', function(event) {
+            const muscleMenu = document.getElementById('muscleMenu');
+            const muscleButton = document.querySelector('.musculo button');
+
+            // Si el clic es sobre el botón, abre/cierra el menú
+            if (muscleButton.contains(event.target)) {
+                muscleMenu.style.display = muscleMenu.style.display === 'block' ? 'none' : 'block';
+            } else if (!muscleMenu.contains(event.target)) {
+                // Si el clic es fuera del menú, ciérralo
+                muscleMenu.style.display = 'none';
+            }
+        });
+
+        // Función para previsualizar la imagen seleccionada
         function previewImage(event) {
-        const file = event.target.files[0];
-        const previewContainer = document.getElementById('preview-container');
-        previewContainer.innerHTML = ''; // Limpia cualquier vista previa previa
+            const file = event.target.files[0];
+            const previewContainer = document.getElementById('preview-container');
+            previewContainer.innerHTML = ''; // Limpia cualquier vista previa previa
 
-        if (file) {
-            const reader = new FileReader();
-            reader.onload = function (e) {
-                const img = document.createElement('img');
-                img.src = e.target.result;
-                previewContainer.appendChild(img);
-                previewContainer.style.display = 'block';
-            };
-            reader.readAsDataURL(file);
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const img = document.createElement('img');
+                    img.src = e.target.result;
+                    previewContainer.appendChild(img);
+                    previewContainer.style.display = 'block';
+                };
+                reader.readAsDataURL(file);
+            }
         }
-    }
+
+        function enviarFormulario(event) {
+    event.preventDefault();  // Prevenir el envío tradicional del formulario
+
+    // Obtener los datos del formulario
+    const formData = new FormData(document.getElementById('formEjercicio'));
+
+    // Crear el objeto XMLHttpRequest para enviar la petición AJAX
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', 'guardar_ejercicio.php', true);
+    
+    // Definir lo que ocurre cuando se reciba una respuesta
+    xhr.onload = function() {
+        if (xhr.status == 200) {
+            const response = JSON.parse(xhr.responseText);  // Parsear la respuesta JSON
+            const mensajeResultado = document.getElementById('mensajeResultado');
+            
+            if (response.success) {
+                mensajeResultado.textContent = "¡Ejercicio agregado correctamente!";
+                mensajeResultado.style.color = 'green';
+            } else {
+                mensajeResultado.textContent = "Error al agregar el ejercicio: " + response.error;
+                mensajeResultado.style.color = 'red';
+            }
+            
+            mensajeResultado.style.display = 'block';  // Mostrar el mensaje
+        }
+    };
+    
+    // Enviar la petición
+    xhr.send(formData);
+}
+
+    // Asignar el manejador del evento submit al formulario
+    document.getElementById('formEjercicio').addEventListener('submit', enviarFormulario);
+
+
     </script>
 
 </body>
