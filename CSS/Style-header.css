@@ -139,7 +139,7 @@ header {
     display: none;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 850px) {
     .nav-links {
         display: none;
     }

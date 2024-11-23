@@ -9,20 +9,103 @@
 <body>
     <header class="header">
         <div class="logo">TUTOSGYM</div>
-        <a href="Ejercicios-especifico.html"><button class="cancel-button">Cancelar</button></a>
+        <a href="javascript:window.history.back();"><button class="cancel-button">Cancelar</button></a>
     </header>
 
     <div class="main-container">
-        <h1 class="titulo-ejercicio">AGREGAR EJERCICIO</h1>
+        <div class="contenedor">
+            
+            <h2>Agregar Ejercicio</h2>
 
-        <input type="text" id="titulo" placeholder="Título del ejercicio" class="input-titulo">
+            <input type="text" id="titulo" placeholder="Nombre del ejercicio" class="input-titulo">
 
-        <div class="imagen-container">
-            <img src="Iconos/dragndrop.png" alt="Ícono de añadir">
+            <div class="image-uploader">
+                <label for="upload-image" class="upload-label">
+                    <img src="Iconos/upload.png" alt="Subir imagen del ejercicio" class="upload-icon">
+                    <p>Da click y selecciona la imagen desde tu dispositivo</p>
+                </label>
+                <input type="file" id="upload-image" accept="image/*" class="upload-input" onchange="previewImage(event)">
+                <div class="preview-container" id="preview-container">
+                    <!-- Aquí se mostrará la vista previa de la imagen -->
+                </div>
+            </div>
+
+            <textarea id="descripcion" placeholder="Descripción del ejercicio" class="input-descripcion"></textarea>
+            <textarea id="video" placeholder="Link del video del ejercicio" class="input-descripcion"></textarea>
+            <p class="descripcion">Por favor, introduce el enlace del video correspondiente al ejercicio.</p>
+
+            <div class="dropdown">
+                <button onclick="toggleMenu()">Tipo de ejercicio</button>
+                <div class="dropdown-menu" id="menu">
+                    <a href="#">Con máquina</a>
+                    <a href="#">Sin máquina</a>
+                </div>
+            </div>
+    
+            <div class="musculo">
+                <button onclick="toggleMuscleMenu()">Seleccionar Músculo</button>
+                <div class="musculo-menu" id="muscleMenu">
+                    <a href="#">Pecho</a>
+                    <a href="#">Pierna</a>
+                    <a href="#">Abdomen</a>
+                    <a href="#">Brazo</a>
+                    <a href="#">Espalda</a>
+                    <a href="#">Hombro</a>
+                </div>
+            </div>
+            <button class="guardar-button">Guardar</button>
         </div>
 
-        <textarea id="descripcion" placeholder="Descripción del ejercicio" class="input-descripcion"></textarea>
-        <button class="guardar-button">Guardar</button>
-    </div>
+    <script>
+        document.addEventListener('click', function (event) {
+    const menu = document.getElementById('menu');
+    const dropdownButton = document.querySelector('.dropdown button');
+
+    // Verifica si el clic fue dentro del botón o del menú
+    if (dropdownButton.contains(event.target)) {
+        // Si haces clic en el botón, alterna el menú
+        menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+    } else if (!menu.contains(event.target)) {
+        // Si haces clic fuera del menú, ciérralo
+        menu.style.display = 'none';
+    }
+    });
+    </script>
+
+
+    <script>
+        function toggleMuscleMenu() {
+            const menu = document.getElementById('muscleMenu');
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        }
+
+        // Cierra el menú si se hace clic fuera de él
+        window.onclick = function(event) {
+            const menu = document.getElementById('muscleMenu');
+            if (!event.target.matches('.musculo button')) {
+                menu.style.display = 'none';
+            }
+        };
+    </script>
+
+    <script>
+        function previewImage(event) {
+        const file = event.target.files[0];
+        const previewContainer = document.getElementById('preview-container');
+        previewContainer.innerHTML = ''; // Limpia cualquier vista previa previa
+
+        if (file) {
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                const img = document.createElement('img');
+                img.src = e.target.result;
+                previewContainer.appendChild(img);
+                previewContainer.style.display = 'block';
+            };
+            reader.readAsDataURL(file);
+        }
+    }
+    </script>
+
 </body>
 </html>

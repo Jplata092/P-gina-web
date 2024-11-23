@@ -88,25 +88,6 @@ form {
     transform: scale(1.02); /* Aumenta el tamaño del botón al pasar el cursor sobre él */
 }
 
-
-@media (max-width: 670px) {
-    .main-container {
-        flex-direction: column;
-        align-items: center;
-        width: 100%; /* Ajusta el ancho para pantallas pequeñas */
-    }
-
-    .login-container {
-        padding-top: 100px;
-        width: 100%; /* Ajusta el ancho para pantallas pequeñas */
-        height: auto;
-    }
-
-    .rutina-container {
-        width: 100%; /* Ajusta el ancho para pantallas pequeñas */
-    }
-}
-
  /* Rutina de ejercicios */
  .rutina-container {
     display: flex;
@@ -173,4 +154,18 @@ form {
 
 .ejercicio:hover {
     transform: scale(1.1);
+}
+
+@media (max-width: 670px) {
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        width: 100%; /* Ajusta el ancho para pantallas pequeñas */
+    }
+
+    .login-container, .rutina-container {
+        width: 100%; /* Ajusta el ancho para pantallas pequeñas */
+        height: 50%; /* Ajusta la altura para pantallas pequeñas */
+    }
 }

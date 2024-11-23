@@ -52,8 +52,10 @@ body {
     display: grid; /* Activa el contexto de cuadrícula */
     grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
     grid-template-rows: repeat(3, 1fr); /* 3 filas iguales */
-    gap: 20px; /* Espacio entre los elementos de la cuadrícula */
+    column-gap: 20px; /* Espacio entre los elementos de la cuadrícula */
+    row-gap: 0%;/*espacio vertical entre elementos*/
     padding: 20px; /* Espacio interno alrededor del contenedor */
+    margin: 30px 0; /* Espacio externo alrededor del contenedor */
     justify-items: center; /* Centra los elementos en cada celda */
     align-items: center; /* Centra los elementos verticalmente */
     list-style-type: none; /* Elimina los puntos de la lista */
@@ -80,15 +82,16 @@ body {
 }
 
 .ejercicio {
+    margin: 0%;
     position: relative; /* Necesario para ajustar el contenedor de la imagen */
     width: 100%; /* Asegura que el contenedor ocupe todo el ancho de su celda */
-    padding-top: 100%; /* Proporción 1:1 (misma altura y ancho) */
+   /* padding-top: 100%; /* Proporción 1:1 (misma altura y ancho) */
     overflow: hidden; /* Esconde el contenido que se salga del contenedor */
     border-radius: 5px; /* Bordes redondeados para el contenedor */
 }
 
 .ejercicio img {
-    position: absolute;
+    
     top: 0;
     left: 0;
     width: 100%;
@@ -115,6 +118,7 @@ body {
 }
 
 .text-container {
+    margin:0;
     border-radius: 5px;
     display: block; /* Asegura que sea un bloque visible */
     text-align: center; /* Centra el texto */
