@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Añadir Ejercicio</title>
     <link rel="stylesheet" href="CSS/style-añadir.css">
-    <form action="guardaEjercicioBD.php" method="POST" enctype="multipart/form-data">
+    <form id="formEjercicio" action="guardaEjercicioBD.php" method="POST" enctype="multipart/form-data">
 
 </head>
 <body>
     <header class="header">
         <div class="logo">TUTOSGYM</div>
-        <a href="javascript:window.history.back();"><button class="cancel-button">Cancelar</button></a>
+        <a href="javascript:window.history.back();">
+            <button class="cancel-button" type="button">Cancelar</button>
+        </a>
     </header>
 
     <div class="main-container">
@@ -69,13 +71,14 @@
                 <button type="submit" class="guardar-button">Guardar</button>
 
                 <div id="mensajeResultado" style="display: none;"></div>
+
             </form>
         </div>
     </div>
 
     <!-- Script para manejar los menús desplegables -->
     <script>
-                // Función para establecer el valor del tipo de ejercicio
+        // Función para establecer el valor del tipo de ejercicio
         function setTipo(tipo) {
             document.getElementById('tipoEjercicio').value = tipo === 'Con máquina' ? 'maquina' : 'nomaquina';
             
@@ -142,41 +145,36 @@
             }
         }
 
-        function enviarFormulario(event) {
-    event.preventDefault();  // Prevenir el envío tradicional del formulario
+        // Manejo del envío del formulario con AJAX
+        document.getElementById('formEjercicio').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevenir el comportamiento por defecto
 
-    // Obtener los datos del formulario
-    const formData = new FormData(document.getElementById('formEjercicio'));
+            const formData = new FormData(this); // Crear un FormData con los datos del formulario
+            const xhr = new XMLHttpRequest();
 
-    // Crear el objeto XMLHttpRequest para enviar la petición AJAX
-    const xhr = new XMLHttpRequest();
-    xhr.open('POST', 'guardar_ejercicio.php', true);
-    
-    // Definir lo que ocurre cuando se reciba una respuesta
-    xhr.onload = function() {
-        if (xhr.status == 200) {
-            const response = JSON.parse(xhr.responseText);  // Parsear la respuesta JSON
-            const mensajeResultado = document.getElementById('mensajeResultado');
-            
-            if (response.success) {
-                mensajeResultado.textContent = "¡Ejercicio agregado correctamente!";
-                mensajeResultado.style.color = 'green';
-            } else {
-                mensajeResultado.textContent = "Error al agregar el ejercicio: " + response.error;
-                mensajeResultado.style.color = 'red';
-            }
-            
-            mensajeResultado.style.display = 'block';  // Mostrar el mensaje
-        }
-    };
-    
-    // Enviar la petición
-    xhr.send(formData);
-}
+            xhr.open('POST', 'guardaEjercicioBD.php', true); // Enviar al archivo PHP
+            xhr.onload = function() {
+                const mensajeResultado = document.getElementById('mensajeResultado');
+                if (xhr.status === 200) {
+                    const response = JSON.parse(xhr.responseText); // Parsear respuesta
+                    if (response.success) {
+                        mensajeResultado.textContent = response.success;
+                        mensajeResultado.style.color = 'green';
+                        mensajeResultado.style.display = 'block';
+                    } else {
+                        mensajeResultado.textContent = response.error || "Error desconocido.";
+                        mensajeResultado.style.color = 'red';
+                        mensajeResultado.style.display = 'block';
+                    }
+                } else {
+                    mensajeResultado.textContent = "Error en la conexión con el servidor.";
+                    mensajeResultado.style.color = 'red';
+                    mensajeResultado.style.display = 'block';
+                }
+            };
 
-    // Asignar el manejador del evento submit al formulario
-    document.getElementById('formEjercicio').addEventListener('submit', enviarFormulario);
-
+            xhr.send(formData); // Enviar datos
+        });
 
     </script>
 
